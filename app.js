@@ -15,7 +15,7 @@ const COPY = {
     announcement: "Ebooks $15 • The Roman Diet $25 • Online 10 Sessions $100 • Live 1-on-1 $120 (Jakarta, Gading Serpong & BSD)",
     announcementCta: "Match Your Plan",
     heroTitle: "From 42 kg to champion.",
-    heroSub: "Bullied for being skinny at 14, Juan built himself to 86 kg and 5 armwrestling titles. Now he shows you exactly how.",
+    heroSub: "Bullied for being skinny at 14, Juan built himself to 86 kg and 5 armwrestling titles. Now he coaches you: ebooks from $15, coaching from $100.",
     storyKicker: "JUAN'S STORY",
     storyTitle: "From 42 kg to the body he once dreamed of.",
     statThen: "at 14 • 178 cm",
@@ -29,7 +29,7 @@ const COPY = {
     story4t: "86 kg. Now he coaches you.",
     story4p: "No trends, no random workouts, no guessing. Understand your body, follow proven principles, build habits that last.",
     storyQuote: "“I know what it feels like to look in the mirror and wish things were different. And I know what's possible when you decide to do something about it.”",
-    storyCta: "Start your transformation",
+    storyCta: "See plans & prices",
     storyCtaNote: "Ebooks from $15 • Coaching from $100",
     how1: "Pick a book or coaching plan",
     how2: "Tap the button, chat with Juan on WhatsApp",
@@ -47,15 +47,31 @@ const COPY = {
     faq5q: "Where do live sessions happen?",
     faq5a: "Jakarta, Gading Serpong and BSD. Live slots are limited each month, so message early. Outside these areas, pick online coaching.",
     sampleCta: "Get the free sample on WhatsApp",
-    barTitle: "Ebooks from $15",
-    barSub: "Coaching from $100",
-    barCta: "Find my plan",
+    barTitle: "From 42 kg to 86 kg",
+    barSub: "Ebooks $15 • Coaching $100",
+    barCta: "See plans",
+    credsKicker: "PROVEN ON THE TABLE",
+    credsTitle: "5 titles. 7 podiums.",
+    credsSub: "Juan competes in armwrestling and powerlifting, so he coaches strength that is real, not just a look.",
+    credsChips: "HE COACHES",
+    goalsKicker: "START HERE",
+    goalsTitle: "What do you want to change?",
+    goalsSub: "Tap one. Juan matches you to the right book or coaching plan in 30 seconds.",
+    g1: "Build muscle", g1s: "Bigger, wider, stronger",
+    g2: "Lose fat", g2s: "Lean and defined",
+    g3: "Fix my diet", g3s: "Eat right without starving",
+    g4: "Get strong, pain-free", g4s: "Rehab, powerlifting, armwrestling",
+    baBefore: "Before",
+    baAfter: "Now · 86 kg",
+    st1: "1st place armwrestling",
+    st2: "podiums",
+    st3: "since age 14",
     heroKicker: "5X 1ST PLACE ARMWRESTLING • POWERLIFTING MEDALIST • FROM $15",
     heroB1: "Skinny-to-5x Armwrestling Champion & Powerlifting Medalist proven system",
     heroB2: "Fat Loss, Muscle Gain, Rehabilitation, Injury Prevention & Mobility",
     heroB3: "Online Coaching (10 Sessions $100) & Live 1-on-1 ($120) in Jakarta, Gading Serpong & BSD",
-    heroCtaPrimary: "Find my plan (30s)",
-    heroCtaSecondary: "See prices",
+    heroCtaPrimary: "See plans & prices",
+    heroCtaSecondary: "Help me choose",
     collectionTitle: "All books & coaching",
     collectionSub:
       "Split-specific ebooks, The Roman Diet nutrition guide, 10-session online coaching, and live 1-on-1 sessions in Jakarta, Gading Serpong & BSD.",
@@ -63,21 +79,21 @@ const COPY = {
     eliteTitle: "Pick your starting point.",
     eliteSub:
       "Start with a $15 physique ebook, master your nutrition with The Roman Diet, or train directly with Juan online or in-person.",
-    proofTitle: "Undeniable Proof",
+    proofTitle: "Client results",
     proofBody:
       "Real fat loss. Real lean muscle. From dramatic client body recompositions to Juan's own journey from super-skinny teenager to 5x 1st Place Armwrestling Champion — the system works for every starting point.",
-    proofCta: "Start Your Transformation",
+    proofCta: "See plans & prices",
     bannerTitle: "Live 1-on-1 Coaching in Jakarta, Gading Serpong & BSD.",
     bannerSub:
       "Lock in your $120 Live 1-on-1 package for hands-on form correction, injury prevention & strength coaching — or join 10-Session Online Coaching ($100) from anywhere.",
-    bannerCta1: "Book via WhatsApp",
-    bannerCta2: "Take 30s Plan Matcher",
+    bannerCta1: "Ask Juan on WhatsApp",
+    bannerCta2: "Help me choose",
   },
   id: {
     announcement: "Ebook $15 • The Roman Diet $25 • Online 10 Sesi $100 • Live 1-on-1 $120 (Jakarta, Gading Serpong & BSD)",
     announcementCta: "Cek Program Cocok",
     heroTitle: "Dari 42 kg jadi juara.",
-    heroSub: "Di-bully karena kurus di usia 14, Juan membangun tubuhnya sampai 86 kg dan 5 gelar armwrestling. Sekarang dia tunjukkan caranya ke kamu.",
+    heroSub: "Di-bully karena kurus di usia 14, Juan membangun tubuhnya sampai 86 kg dan 5 gelar armwrestling. Sekarang dia melatih kamu: ebook mulai $15, coaching mulai $100.",
     storyKicker: "CERITA JUAN",
     storyTitle: "Dari 42 kg ke tubuh yang dulu cuma bisa dia impikan.",
     statThen: "usia 14 • 178 cm",
@@ -91,7 +107,7 @@ const COPY = {
     story4t: "86 kg. Sekarang dia melatih kamu.",
     story4p: "Bukan ikut tren, bukan latihan asal, bukan tebak-tebakan. Pahami tubuhmu, ikuti prinsip yang terbukti, bangun kebiasaan yang bertahan.",
     storyQuote: "“Saya tahu rasanya bercermin dan berharap semuanya berbeda. Dan saya tahu apa yang mungkin terjadi saat kamu memutuskan untuk bertindak.”",
-    storyCta: "Mulai transformasimu",
+    storyCta: "Lihat paket & harga",
     storyCtaNote: "Ebook mulai $15 • Coaching mulai $100",
     how1: "Pilih buku atau paket coaching",
     how2: "Tekan tombol, chat Juan di WhatsApp",
@@ -109,15 +125,31 @@ const COPY = {
     faq5q: "Di mana sesi live diadakan?",
     faq5a: "Jakarta, Gading Serpong dan BSD. Slot live terbatas tiap bulan, jadi chat lebih awal. Di luar area ini, pilih online coaching.",
     sampleCta: "Ambil sample gratis di WhatsApp",
-    barTitle: "Ebook mulai $15",
-    barSub: "Coaching mulai $100",
-    barCta: "Cari programku",
+    barTitle: "Dari 42 kg ke 86 kg",
+    barSub: "Ebook $15 • Coaching $100",
+    barCta: "Lihat paket",
+    credsKicker: "TERBUKTI DI MEJA",
+    credsTitle: "5 gelar. 7 podium.",
+    credsSub: "Juan bertanding armwrestling dan powerlifting, jadi dia melatih kekuatan yang nyata, bukan cuma penampilan.",
+    credsChips: "DIA MELATIH",
+    goalsKicker: "MULAI DI SINI",
+    goalsTitle: "Apa yang ingin kamu ubah?",
+    goalsSub: "Pilih satu. Juan cocokkan kamu ke buku atau paket coaching yang tepat dalam 30 detik.",
+    g1: "Tambah otot", g1s: "Lebih besar, lebar, kuat",
+    g2: "Turunkan lemak", g2s: "Ramping dan berotot",
+    g3: "Perbaiki pola makan", g3s: "Makan benar tanpa kelaparan",
+    g4: "Kuat tanpa cedera", g4s: "Rehab, powerlifting, armwrestling",
+    baBefore: "Dulu",
+    baAfter: "Sekarang · 86 kg",
+    st1: "juara 1 armwrestling",
+    st2: "podium",
+    st3: "sejak usia 14",
     heroKicker: "5X JUARA 1 ARMWRESTLING • MEDALI POWERLIFTING • MULAI $15",
     heroB1: "Sistem terbukti dari super kurus menjadi 5x Juara 1 Armwrestling & Medali Powerlifting",
     heroB2: "Fat Loss, Muscle Gain, Rehabilitasi, Pencegahan Cedera & Mobilitas",
     heroB3: "Online Coaching (10 Sesi $100) & Live 1-on-1 ($120) di Jakarta, Gading Serpong & BSD",
-    heroCtaPrimary: "Cari programku (30 detik)",
-    heroCtaSecondary: "Lihat harga",
+    heroCtaPrimary: "Lihat paket & harga",
+    heroCtaSecondary: "Bantu saya pilih",
     collectionTitle: "Semua buku & coaching",
     collectionSub:
       "Ebook split latihan, buku nutrisi The Roman Diet, Online Coaching 10 sesi, hingga Live 1-on-1 di Jakarta, Gading Serpong & BSD.",
@@ -125,15 +157,15 @@ const COPY = {
     eliteTitle: "Pilih titik awalmu.",
     eliteSub:
       "Mulai dari ebook fisik $15, kuasai nutrisi lewat The Roman Diet ($25), atau latihan langsung bersama Coach Juan online maupun offline.",
-    proofTitle: "Bukti Nyata",
+    proofTitle: "Hasil klien",
     proofBody:
       "Fat loss nyata. Otot padat nyata. Dari transformasi klien yang luar biasa hingga perjalanan Juan sendiri dari sangat kurus menjadi 5x Juara 1 Armwrestling — sistem ini terbukti untuk berbagai titik awal.",
-    proofCta: "Mulai Transformasi Sekarang",
+    proofCta: "Lihat paket & harga",
     bannerTitle: "Live 1-on-1 Coaching di Jakarta, Gading Serpong & BSD.",
     bannerSub:
       "Ambil paket Live 1-on-1 ($120) untuk koreksi teknik langsung & pencegahan cedera — atau ikut Online Coaching 10 Sesi ($100) dari mana saja.",
-    bannerCta1: "Chat WhatsApp Sekarang",
-    bannerCta2: "Cek Program Cocok (30 Detik)",
+    bannerCta1: "Tanya Juan di WhatsApp",
+    bannerCta2: "Bantu saya pilih",
   },
 };
 
@@ -143,16 +175,45 @@ function buildWhatsAppUrl(message) {
   return `https://wa.me/${SITE_CONFIG.whatsappNumber}?text=${encodeURIComponent(message)}`;
 }
 
+/* Hero before/after drag compare */
+function initBeforeAfter() {
+  const ba = document.getElementById("heroBA");
+  if (!ba) return;
+  let dragging = false;
+  const set = (pct) => {
+    pct = Math.max(2, Math.min(98, pct));
+    ba.style.setProperty("--pos", pct + "%");
+    ba.setAttribute("aria-valuenow", Math.round(pct));
+  };
+  const fromEvent = (e) => {
+    const r = ba.getBoundingClientRect();
+    set(((e.clientX - r.left) / r.width) * 100);
+  };
+  ba.addEventListener("pointerdown", (e) => { dragging = true; ba.classList.remove("hint"); fromEvent(e); });
+  window.addEventListener("pointermove", (e) => { if (dragging) fromEvent(e); });
+  window.addEventListener("pointerup", () => { dragging = false; });
+  window.addEventListener("pointercancel", () => { dragging = false; });
+  ba.addEventListener("keydown", (e) => {
+    const cur = parseFloat(getComputedStyle(ba).getPropertyValue("--pos")) || 50;
+    if (e.key === "ArrowLeft") { set(cur - 5); e.preventDefault(); }
+    if (e.key === "ArrowRight") { set(cur + 5); e.preventDefault(); }
+  });
+  ba.classList.add("hint");
+}
+
 /* Sticky phone buy bar: shows after the hero, hides near the footer */
 function initBuyBar() {
   const bar = document.getElementById("buyBar");
   const hero = document.getElementById("top");
   const footer = document.querySelector(".site-footer");
+  const quiet = [...document.querySelectorAll("#goals, #programs")];
   if (!bar || !hero) return;
   const update = () => {
+    const vh = window.innerHeight;
     const pastHero = hero.getBoundingClientRect().bottom < 0;
-    const atFooter = footer && footer.getBoundingClientRect().top < window.innerHeight - 40;
-    bar.classList.toggle("show", pastHero && !atFooter);
+    const atFooter = footer && footer.getBoundingClientRect().top < vh - 40;
+    const inShop = quiet.some((el) => { const r = el.getBoundingClientRect(); return r.top < vh * 0.6 && r.bottom > vh * 0.4; });
+    bar.classList.toggle("show", pastHero && !atFooter && !inShop);
   };
   window.addEventListener("scroll", update, { passive: true });
   update();
@@ -237,7 +298,7 @@ function initTierSelectors() {
       options.forEach((o) => o.classList.remove("selected"));
       opt.classList.add("selected");
       priceEl.textContent = opt.dataset.price;
-      compareEl.textContent = opt.dataset.compare || "";
+      if (compareEl) compareEl.textContent = opt.dataset.compare || "";
       saveEl.textContent = opt.dataset.save || "";
       ctaBtn.dataset.selectedPlan = `${card.dataset.offerName} — ${opt.dataset.tierLabel} (${opt.dataset.price})`;
     }
@@ -265,31 +326,38 @@ function initTierSelectors() {
   });
 }
 
-/* Undeniable Proof Transformation Slider */
+/* Proof: swipeable track, arrows scroll it, caption follows */
 function initProofSlider() {
+  const track = document.getElementById("proofTrack");
   const slides = document.querySelectorAll(".proof-slide");
   const counter = document.getElementById("proofCounter");
   const caption = document.getElementById("proofCaption");
   const prevBtn = document.getElementById("proofPrev");
   const nextBtn = document.getElementById("proofNext");
+  if (!track || !slides.length) return;
   let idx = 0;
-
-  function render() {
-    slides.forEach((s, i) => s.classList.toggle("active", i === idx));
-    counter.textContent = `0${idx + 1} / 0${slides.length}`;
+  const pad = (n) => String(n).padStart(2, "0");
+  const render = () => {
+    counter.textContent = `${pad(idx + 1)} / ${pad(slides.length)}`;
     caption.textContent = slides[idx].dataset.caption;
-  }
-
-  prevBtn.addEventListener("click", () => {
-    idx = (idx - 1 + slides.length) % slides.length;
+  };
+  const go = (i) => {
+    idx = (i + slides.length) % slides.length;
+    track.scrollTo({ left: slides[idx].offsetLeft - track.offsetLeft, behavior: "smooth" });
     render();
-  });
-
-  nextBtn.addEventListener("click", () => {
-    idx = (idx + 1) % slides.length;
-    render();
-  });
-
+  };
+  prevBtn.addEventListener("click", () => go(idx - 1));
+  nextBtn.addEventListener("click", () => go(idx + 1));
+  let t;
+  track.addEventListener("scroll", () => {
+    clearTimeout(t);
+    t = setTimeout(() => {
+      const x = track.scrollLeft;
+      let best = 0, bestD = Infinity;
+      slides.forEach((s, i) => { const d = Math.abs(s.offsetLeft - track.offsetLeft - x); if (d < bestD) { bestD = d; best = i; } });
+      if (best !== idx) { idx = best; render(); }
+    }, 80);
+  }, { passive: true });
   render();
 }
 
@@ -387,6 +455,14 @@ function initQuizModal() {
     });
   });
 
+  document.querySelectorAll("[data-goal]").forEach((tile) => {
+    tile.addEventListener("click", () => {
+      quizState.goal = tile.dataset.goal;
+      document.getElementById("quizModal").classList.add("open");
+      setQuizStep(2);
+    });
+  });
+
   document.getElementById("quizSubmitWa").addEventListener("click", () => {
     const name = document.getElementById("quizName").value.trim() || "Friend";
     const rec = document.getElementById("quizRecTitle").textContent;
@@ -460,4 +536,5 @@ document.addEventListener("DOMContentLoaded", () => {
   initLanguageToggle();
   initMobileDrawer();
   initBuyBar();
+  initBeforeAfter();
 });
