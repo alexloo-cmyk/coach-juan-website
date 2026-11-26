@@ -14,7 +14,7 @@
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap"
     rel="stylesheet"
   />
-  <link rel="stylesheet" href="styles.css?v=1126h" />
+  <link rel="stylesheet" href="styles.css?v=1126i" />
 </head>
 <body>
 
@@ -508,6 +508,7 @@
           <div class="offer-price-row">
             <span class="offer-price">$49 USD</span>
           </div>
+          <button type="button" class="launch-chip" data-open-launch data-i18n="launchChip">First 100 buyers: all 3 for $25</button>
           <div class="offer-save">Save $6 &bull; Instant download of all 3 books</div>
 
           <div class="tier-selector">
@@ -745,6 +746,26 @@
     </div>
   </footer>
 
+  <!-- First-100 launch offer popup -->
+  <div class="launch" id="launchOffer" role="dialog" aria-modal="true" aria-labelledby="launchTitle" hidden>
+    <div class="launch-box">
+      <button type="button" class="launch-close" id="launchClose" aria-label="Close">&times;</button>
+      <div class="launch-art" aria-hidden="true">
+        <img src="assets/images/cover-wonder-woman.jpg" alt="" />
+        <img src="assets/images/cover-roman-diet.jpg" alt="" />
+        <img src="assets/images/cover-greek-god.jpg" alt="" />
+      </div>
+      <div class="launch-body">
+        <span class="launch-kicker" data-i18n="launchKicker">LAUNCH OFFER &bull; FIRST 100 BUYERS</span>
+        <h3 id="launchTitle" data-i18n="launchTitle">All 3 ebooks for $25</h3>
+        <p class="launch-price"><s>$49</s> <strong>$25</strong> <span data-i18n="launchSave">you save $24</span></p>
+        <p class="launch-sub" data-i18n="launchSub">Greek God Physique + Wonder Woman Physique + The Roman Diet. PDFs sent to you on WhatsApp.</p>
+        <button type="button" class="btn-pill btn-black launch-cta" id="launchClaim" data-i18n="launchCta">Claim on WhatsApp</button>
+        <button type="button" class="launch-later" id="launchLater" data-i18n="launchLater">No thanks</button>
+      </div>
+    </div>
+  </div>
+
   <!-- Sticky phone buy bar -->
   <div class="buy-bar" id="buyBar" aria-hidden="true">
     <div class="buy-bar-text">
@@ -849,6 +870,6 @@
     </div>
   </div>
 
-  <script src="app.js?v=1126h"></script>
+  <script src="app.js?v=1126i"></script>
 </body>
 </html>

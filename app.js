@@ -50,6 +50,13 @@ const COPY = {
     barTitle: "From 42 kg to 86 kg",
     barSub: "Ebooks $15 • Coaching $100",
     barCta: "See plans",
+    launchChip: "First 100 buyers: all 3 for $25",
+    launchKicker: "LAUNCH OFFER • FIRST 100 BUYERS",
+    launchTitle: "All 3 ebooks for $25",
+    launchSave: "you save $24",
+    launchSub: "Greek God Physique + Wonder Woman Physique + The Roman Diet. PDFs sent to you on WhatsApp.",
+    launchCta: "Claim on WhatsApp",
+    launchLater: "No thanks",
     credsKicker: "PROVEN ON THE TABLE",
     credsTitle: "5 titles. 7 podiums.",
     credsSub: "Juan competes in armwrestling and powerlifting, so he coaches strength that is real, not just a look.",
@@ -128,6 +135,13 @@ const COPY = {
     barTitle: "Dari 42 kg ke 86 kg",
     barSub: "Ebook $15 • Coaching $100",
     barCta: "Lihat paket",
+    launchChip: "100 pembeli pertama: 3 buku $25",
+    launchKicker: "PROMO PELUNCURAN • 100 PEMBELI PERTAMA",
+    launchTitle: "3 ebook cuma $25",
+    launchSave: "hemat $24",
+    launchSub: "Greek God Physique + Wonder Woman Physique + The Roman Diet. PDF dikirim lewat WhatsApp.",
+    launchCta: "Ambil di WhatsApp",
+    launchLater: "Nanti saja",
     credsKicker: "TERBUKTI DI MEJA",
     credsTitle: "5 gelar. 7 podium.",
     credsSub: "Juan bertanding armwrestling dan powerlifting, jadi dia melatih kekuatan yang nyata, bukan cuma penampilan.",
@@ -173,6 +187,38 @@ let currentLang = "en";
 
 function buildWhatsAppUrl(message) {
   return `https://wa.me/${SITE_CONFIG.whatsappNumber}?text=${encodeURIComponent(message)}`;
+}
+
+/* First-100 launch offer popup: shows once (after 10 s or half-way down), remembered for 3 days */
+function initLaunchOffer() {
+  const box = document.getElementById("launchOffer");
+  if (!box) return;
+  const KEY = "cj_launch_seen";
+  const seenRecently = () => { try { return Date.now() - Number(localStorage.getItem(KEY) || 0) < 3 * 86400000; } catch (e) { return false; } };
+  const remember = () => { try { localStorage.setItem(KEY, String(Date.now())); } catch (e) {} };
+  let shown = false;
+  const open = () => {
+    if (document.getElementById("quizModal").classList.contains("open")) return;
+    box.hidden = false; requestAnimationFrame(() => box.classList.add("open")); shown = true; remember();
+  };
+  const close = () => { box.classList.remove("open"); setTimeout(() => { box.hidden = true; }, 250); };
+  const maybe = () => { if (!shown && !seenRecently()) open(); };
+  setTimeout(maybe, 10000);
+  window.addEventListener("scroll", () => {
+    if (!shown && window.scrollY > (document.body.scrollHeight - window.innerHeight) * 0.45) maybe();
+  }, { passive: true });
+  document.getElementById("launchClose").addEventListener("click", close);
+  document.getElementById("launchLater").addEventListener("click", close);
+  box.addEventListener("click", (e) => { if (e.target === box) close(); });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !box.hidden) close(); });
+  document.querySelectorAll("[data-open-launch]").forEach((b) => b.addEventListener("click", open));
+  document.getElementById("launchClaim").addEventListener("click", () => {
+    const msg = currentLang === "id"
+      ? "Halo Coach Juan! Saya mau ambil promo 100 pembeli pertama: 3 ebook (Greek God + Wonder Woman + The Roman Diet) $25. Bagaimana cara bayarnya?"
+      : "Hi Coach Juan! I want the first-100 offer: all 3 ebooks (Greek God + Wonder Woman + The Roman Diet) for $25. How do I pay?";
+    window.open(buildWhatsAppUrl(msg), "_blank", "noopener");
+    close();
+  });
 }
 
 /* Hero before/after drag compare */
@@ -544,4 +590,5 @@ document.addEventListener("DOMContentLoaded", () => {
   initMobileDrawer();
   initBuyBar();
   initBeforeAfter();
+  initLaunchOffer();
 });
