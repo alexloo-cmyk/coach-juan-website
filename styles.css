@@ -2329,3 +2329,21 @@ section[id] { scroll-margin-top: 64px; }
   .launch-chip { font-size: 0.66rem; padding: 5px 9px; margin: 0 0 6px; }
 }
 @media (prefers-reduced-motion: reduce) { .launch-box { transition: none; } }
+
+/* ===== Hero calm pass (26 Nov): smaller, natural photo, less to read ===== */
+.ba-before .ba-img { filter: none; }
+.ba-tag { font-weight: 600; }
+@media (max-width: 600px) {
+  .hero h1 { font-size: 1.6rem; line-height: 1.08; margin-bottom: 6px; }
+  .hero-sub { font-size: 0.86rem; line-height: 1.4; margin-bottom: 12px; }
+  .hero-actions .btn-pill { padding-top: 10px; padding-bottom: 10px; font-size: 0.85rem; }
+  .ba { aspect-ratio: 16 / 10; border-radius: 14px; }
+  .ba-img { object-position: center 28%; }
+  .ba-knob { width: 30px; height: 30px; font-size: 0.8rem; }
+  .ba-tag { top: 8px; font-size: 0.62rem; padding: 4px 8px; }
+  .ba-tag-l { left: 8px; } .ba-tag-r { right: 8px; }
+  .hero-stats { gap: 6px; margin-top: 8px; }
+  .hero-stats li { padding: 6px 8px; flex-direction: row; align-items: baseline; gap: 5px; border-radius: 10px; }
+  .hero-stats strong { font-size: 0.95rem; }
+  .hero-stats span { font-size: 0.58rem; }
+}
