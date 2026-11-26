@@ -12,7 +12,7 @@ const SITE_CONFIG = {
 /* Bilingual Copy Dictionary (EN / ID) */
 const COPY = {
   en: {
-    announcement: "Ebooks $15 • The Roman Diet $25 • Online 10 Sessions $100 • Live 1-on-1 $120 (Jakarta, Gading Serpong & BSD)",
+    announcement: "Ebooks $16.99 • Online 10 Sessions $100 • Live 1-on-1 $120 (Jakarta, Gading Serpong & BSD)",
     announcementCta: "Match Your Plan",
     heroTitle: "From 42 kg to champion.",
     heroSub: "Skinny and bullied at 14. 86 kg and 5 titles today. Now he coaches you.",
@@ -30,7 +30,7 @@ const COPY = {
     story4p: "No trends, no random workouts, no guessing. Understand your body, follow proven principles, build habits that last.",
     storyQuote: "“I know what it feels like to look in the mirror and wish things were different. And I know what's possible when you decide to do something about it.”",
     storyCta: "See plans & prices",
-    storyCtaNote: "Ebooks from $15 • Coaching from $100",
+    storyCtaNote: "Ebooks from $16.99 • Coaching from $100",
     how1: "Pick a book or coaching plan",
     how2: "Tap the button, chat with Juan on WhatsApp",
     how3: "Pay, get your PDF or book your first session",
@@ -41,20 +41,20 @@ const COPY = {
     faq2q: "How do I get the ebook after paying?",
     faq2a: "Tap Get, chat with Juan on WhatsApp, pay, and the PDF is sent to you. Read it on your phone at the gym.",
     faq3q: "Which one should I pick?",
-    faq3a: "Want to train on your own? Start with an ebook ($15) plus The Roman Diet ($25). Want Juan checking your form and plan? Online coaching ($100 for 10 sessions). Near Jakarta, Gading Serpong or BSD? Live 1-on-1 ($120).",
+    faq3a: "Want to train on your own? Pick your level: The Physique Blueprint (beginner), The Centurion Blueprint (intermediate) or The Gladiator Blueprint (advanced), $16.99 each. Want Juan checking your form and plan? Online coaching ($100 for 10 sessions). Near Jakarta, Gading Serpong or BSD? Live 1-on-1 ($120).",
     faq4q: "I have an old injury. Can I still train?",
     faq4a: "Rehab and injury prevention are part of what Juan coaches. Tell him about it on WhatsApp first so your plan works around it.",
     faq5q: "Where do live sessions happen?",
     faq5a: "Jakarta, Gading Serpong and BSD. Live slots are limited each month, so message early. Outside these areas, pick online coaching.",
     sampleCta: "Get the free sample on WhatsApp",
     barTitle: "From 42 kg to 86 kg",
-    barSub: "Ebooks $15 • Coaching $100",
+    barSub: "Ebooks $16.99 • Coaching $100",
     barCta: "See plans",
     launchChip: "First 100 buyers: all 3 for $25",
     launchKicker: "LAUNCH OFFER • FIRST 100 BUYERS",
     launchTitle: "All 3 ebooks for $25",
-    launchSave: "you save $24",
-    launchSub: "Greek God Physique + Wonder Woman Physique + The Roman Diet. PDFs sent to you on WhatsApp.",
+    launchSave: "you save $25.97",
+    launchSub: "Beginner, Intermediate and Advanced Blueprints. PDFs sent to you on WhatsApp.",
     launchCta: "Claim on WhatsApp",
     launchLater: "No thanks",
     credsKicker: "PROVEN ON THE TABLE",
@@ -73,7 +73,7 @@ const COPY = {
     st1: "1st place armwrestling",
     st2: "podiums",
     st3: "since age 14",
-    heroKicker: "5X 1ST PLACE ARMWRESTLING • POWERLIFTING MEDALIST • FROM $15",
+    heroKicker: "5X 1ST PLACE ARMWRESTLING • POWERLIFTING MEDALIST • FROM $16.99",
     heroB1: "Skinny-to-5x Armwrestling Champion & Powerlifting Medalist proven system",
     heroB2: "Fat Loss, Muscle Gain, Rehabilitation, Injury Prevention & Mobility",
     heroB3: "Online Coaching (10 Sessions $100) & Live 1-on-1 ($120) in Jakarta, Gading Serpong & BSD",
@@ -81,11 +81,11 @@ const COPY = {
     heroCtaSecondary: "Help me choose",
     collectionTitle: "All books & coaching",
     collectionSub:
-      "Split-specific ebooks, The Roman Diet nutrition guide, 10-session online coaching, and live 1-on-1 sessions in Jakarta, Gading Serpong & BSD.",
+      "Beginner, intermediate and advanced ebooks, 10-session online coaching, and live 1-on-1 sessions in Jakarta, Gading Serpong & BSD.",
     counterNote: "Limited monthly live 1-on-1 slots in Jakarta, Gading Serpong & BSD.",
     eliteTitle: "Pick your starting point.",
     eliteSub:
-      "Start with a $15 physique ebook, master your nutrition with The Roman Diet, or train directly with Juan online or in-person.",
+      "Start with a $16.99 Blueprint ebook at your level, or train directly with Juan online or in-person.",
     proofTitle: "Real results",
     proofBody:
       "Real fat loss. Real lean muscle. From dramatic client body recompositions to Juan's own journey from super-skinny teenager to 5x 1st Place Armwrestling Champion — the system works for every starting point.",
@@ -97,7 +97,7 @@ const COPY = {
     bannerCta2: "Help me choose",
   },
   id: {
-    announcement: "Ebook $15 • The Roman Diet $25 • Online 10 Sesi $100 • Live 1-on-1 $120 (Jakarta, Gading Serpong & BSD)",
+    announcement: "Ebook $16.99 • Online 10 Sesi $100 • Live 1-on-1 $120 (Jakarta, Gading Serpong & BSD)",
     announcementCta: "Cek Program Cocok",
     heroTitle: "Dari 42 kg jadi juara.",
     heroSub: "Kurus dan di-bully di usia 14. Sekarang 86 kg dan 5 gelar. Kini dia melatih kamu.",
@@ -115,7 +115,7 @@ const COPY = {
     story4p: "Bukan ikut tren, bukan latihan asal, bukan tebak-tebakan. Pahami tubuhmu, ikuti prinsip yang terbukti, bangun kebiasaan yang bertahan.",
     storyQuote: "“Saya tahu rasanya bercermin dan berharap semuanya berbeda. Dan saya tahu apa yang mungkin terjadi saat kamu memutuskan untuk bertindak.”",
     storyCta: "Lihat paket & harga",
-    storyCtaNote: "Ebook mulai $15 • Coaching mulai $100",
+    storyCtaNote: "Ebook mulai $16.99 • Coaching mulai $100",
     how1: "Pilih buku atau paket coaching",
     how2: "Tekan tombol, chat Juan di WhatsApp",
     how3: "Bayar, terima PDF atau jadwalkan sesi pertama",
@@ -126,20 +126,20 @@ const COPY = {
     faq2q: "Bagaimana saya menerima ebook setelah bayar?",
     faq2a: "Tekan Get, chat Juan di WhatsApp, bayar, lalu PDF dikirim ke kamu. Baca langsung di HP saat di gym.",
     faq3q: "Saya harus pilih yang mana?",
-    faq3a: "Mau latihan sendiri? Mulai dengan ebook ($15) plus The Roman Diet ($25). Mau Juan cek form dan program kamu? Online coaching ($100 untuk 10 sesi). Dekat Jakarta, Gading Serpong atau BSD? Live 1-on-1 ($120).",
+    faq3a: "Mau latihan sendiri? Pilih level kamu: The Physique Blueprint (pemula), The Centurion Blueprint (menengah) atau The Gladiator Blueprint (lanjutan), masing-masing $16.99. Mau Juan cek form dan program kamu? Online coaching ($100 untuk 10 sesi). Dekat Jakarta, Gading Serpong atau BSD? Live 1-on-1 ($120).",
     faq4q: "Saya punya cedera lama. Masih bisa latihan?",
     faq4a: "Rehabilitasi dan pencegahan cedera adalah bagian dari coaching Juan. Ceritakan dulu di WhatsApp supaya programmu menyesuaikan.",
     faq5q: "Di mana sesi live diadakan?",
     faq5a: "Jakarta, Gading Serpong dan BSD. Slot live terbatas tiap bulan, jadi chat lebih awal. Di luar area ini, pilih online coaching.",
     sampleCta: "Ambil sample gratis di WhatsApp",
     barTitle: "Dari 42 kg ke 86 kg",
-    barSub: "Ebook $15 • Coaching $100",
+    barSub: "Ebook $16.99 • Coaching $100",
     barCta: "Lihat paket",
     launchChip: "100 pembeli pertama: 3 buku $25",
     launchKicker: "PROMO PELUNCURAN • 100 PEMBELI PERTAMA",
     launchTitle: "3 ebook cuma $25",
-    launchSave: "hemat $24",
-    launchSub: "Greek God Physique + Wonder Woman Physique + The Roman Diet. PDF dikirim lewat WhatsApp.",
+    launchSave: "hemat $25.97",
+    launchSub: "Blueprint Pemula, Menengah dan Lanjutan. PDF dikirim lewat WhatsApp.",
     launchCta: "Ambil di WhatsApp",
     launchLater: "Nanti saja",
     credsKicker: "TERBUKTI DI MEJA",
@@ -158,7 +158,7 @@ const COPY = {
     st1: "juara 1 armwrestling",
     st2: "podium",
     st3: "sejak usia 14",
-    heroKicker: "5X JUARA 1 ARMWRESTLING • MEDALI POWERLIFTING • MULAI $15",
+    heroKicker: "5X JUARA 1 ARMWRESTLING • MEDALI POWERLIFTING • MULAI $16.99",
     heroB1: "Sistem terbukti dari super kurus menjadi 5x Juara 1 Armwrestling & Medali Powerlifting",
     heroB2: "Fat Loss, Muscle Gain, Rehabilitasi, Pencegahan Cedera & Mobilitas",
     heroB3: "Online Coaching (10 Sesi $100) & Live 1-on-1 ($120) di Jakarta, Gading Serpong & BSD",
@@ -166,11 +166,11 @@ const COPY = {
     heroCtaSecondary: "Bantu saya pilih",
     collectionTitle: "Semua buku & coaching",
     collectionSub:
-      "Ebook split latihan, buku nutrisi The Roman Diet, Online Coaching 10 sesi, hingga Live 1-on-1 di Jakarta, Gading Serpong & BSD.",
+      "Ebook level pemula, menengah dan lanjutan, Online Coaching 10 sesi, hingga Live 1-on-1 di Jakarta, Gading Serpong & BSD.",
     counterNote: "Kuota bulanan Live 1-on-1 Jakarta, Gading Serpong & BSD terbatas.",
     eliteTitle: "Pilih titik awalmu.",
     eliteSub:
-      "Mulai dari ebook fisik $15, kuasai nutrisi lewat The Roman Diet ($25), atau latihan langsung bersama Coach Juan online maupun offline.",
+      "Mulai dari ebook Blueprint $16.99 sesuai level kamu, atau latihan langsung bersama Coach Juan online maupun offline.",
     proofTitle: "Hasil nyata",
     proofBody:
       "Fat loss nyata. Otot padat nyata. Dari transformasi klien yang luar biasa hingga perjalanan Juan sendiri dari sangat kurus menjadi 5x Juara 1 Armwrestling — sistem ini terbukti untuk berbagai titik awal.",
@@ -214,8 +214,8 @@ function initLaunchOffer() {
   document.querySelectorAll("[data-open-launch]").forEach((b) => b.addEventListener("click", open));
   document.getElementById("launchClaim").addEventListener("click", () => {
     const msg = currentLang === "id"
-      ? "Halo Coach Juan! Saya mau ambil promo 100 pembeli pertama: 3 ebook (Greek God + Wonder Woman + The Roman Diet) $25. Bagaimana cara bayarnya?"
-      : "Hi Coach Juan! I want the first-100 offer: all 3 ebooks (Greek God + Wonder Woman + The Roman Diet) for $25. How do I pay?";
+      ? "Halo Coach Juan! Saya mau ambil promo 100 pembeli pertama: 3 ebook (Physique + Centurion + Gladiator Blueprint) $25. Bagaimana cara bayarnya?"
+      : "Hi Coach Juan! I want the first-100 offer: all 3 ebooks (Physique + Centurion + Gladiator Blueprint) for $25. How do I pay?";
     window.open(buildWhatsAppUrl(msg), "_blank", "noopener");
     close();
   });
@@ -466,20 +466,10 @@ function renderQuizRecommendation() {
   const recDesc = document.getElementById("quizRecDesc");
   const isLocal = ["Jakarta", "Gading Serpong", "BSD City"].includes(quizState.location);
 
-  if (quizState.format === "Ebook ($15) / The Roman Diet ($25)") {
-    if (quizState.goal === "Fat Loss & Wonder Woman Sculpt") {
-      recTitle.textContent = "Recommended: Wonder Woman Physique ($15) + The Roman Diet ($25)";
-      recDesc.textContent =
-        "Sculpt a lean, athletic physique with our fat-loss training split paired with The Roman Diet nutrition guide (Bundle available for $35 — Save $5).";
-    } else if (quizState.goal === "Diet & Nutrition Mastery") {
-      recTitle.textContent = "Recommended: The Roman Diet ($25 USD)";
-      recDesc.textContent =
-        "Master fat loss and lean muscle nutrition without starving. Instant PDF delivery with easy high-protein meal formulas.";
-    } else {
-      recTitle.textContent = "Recommended: Greek God Physique ($15) + The Roman Diet ($25)";
-      recDesc.textContent =
-        "Build aesthetic muscle, broad shoulders, and champion strength with our flagship hypertrophy split + nutrition system (Bundle $35 — Save $5).";
-    }
+  if (quizState.format === "Ebooks ($16.99)") {
+    recTitle.textContent = "Recommended: The Blueprint at your level ($16.99)";
+    recDesc.textContent =
+      "New to training? The Physique Blueprint. Training a while? The Centurion Blueprint. Years in? The Gladiator Blueprint. Or get all 3 for $44.99.";
   } else if (isLocal && quizState.format === "Live 1-on-1 Coaching ($120)") {
     recTitle.textContent = `Recommended: Live 1-on-1 Coaching — $120 USD (${quizState.location})`;
     recDesc.textContent = `Train directly beside Coach Juan in ${quizState.location} for ${quizState.goal}, hands-on form correction, mobility, and injury prevention.`;
@@ -545,8 +535,8 @@ function initDirectActions() {
     if (!input.value.trim()) return;
     feedback.textContent =
       currentLang === "id"
-        ? "Berhasil! Sample gratis The Roman Diet & update coaching akan segera dikirim."
-        : "You're in! Your free Roman Diet starter checklist & coaching updates are on the way.";
+        ? "Berhasil! Sample gratis The Physique Blueprint & update coaching akan segera dikirim."
+        : "You're in! Your free Physique Blueprint sample & coaching updates are on the way.";
     input.value = "";
   });
 }

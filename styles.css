@@ -2454,3 +2454,13 @@ section[id] { scroll-margin-top: 64px; }
     letter-spacing: 0.05em;
   }
 }
+
+/* ===== Ebook levels (26 Nov): Roman level names, name over level ===== */
+.tier-name { display: flex; flex-direction: column; line-height: 1.1; font-weight: 700; min-width: 0; }
+.tier-name small { font-size: 0.66rem; font-weight: 500; opacity: 0.65; letter-spacing: 0.02em; }
+.tier-option:has(.tier-name) { padding-top: 6px; padding-bottom: 6px; }
+@media (max-width: 600px) {
+  .tier-option > span.tier-left:last-child { display: flex; }
+  .tier-name { font-size: 0.72rem; }
+  .tier-name small { font-size: 0.58rem; }
+}
