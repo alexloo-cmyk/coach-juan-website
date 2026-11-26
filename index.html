@@ -14,7 +14,7 @@
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap"
     rel="stylesheet"
   />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=1126h" />
 </head>
 <body>
 
@@ -115,7 +115,7 @@
   <section class="section-stone" id="proof">
     <div class="container proof-grid">
       <div class="proof-copy">
-        <h2 class="display-lg" data-i18n="proofTitle">Client results</h2>
+        <h2 class="display-lg" data-i18n="proofTitle">Real results</h2>
         <p class="serif" data-i18n="proofBody">
           Real fat loss. Real lean muscle. From dramatic client body recompositions to Juan's own journey from
           super-skinny teenager to 5x 1st Place Armwrestling Champion — the system works for every starting point.
@@ -137,81 +137,41 @@
 
       <div class="proof-slider-wrap">
         <div class="proof-track" id="proofTrack">
-        <!-- Slide 1: Real Client Fat Loss & Recomp Transformation -->
-        <div
-          class="proof-slide active"
-          data-caption="Client Transformation — Dramatic fat loss, lean abs & athletic muscle definition with Coach Juan"
-        >
+        <div class="proof-slide" data-caption="Client: lost serious body fat and built lean muscle with Coach Juan">
+          <span class="proof-kind">Client &middot; fat loss</span>
           <div class="proof-frame">
-            <img loading="lazy" decoding="async" src="assets/images/client1-before.jpg" alt="Client before coaching transformation" />
+            <img loading="lazy" decoding="async" src="assets/images/client1-before.jpg" alt="Client before coaching" />
             <span class="proof-tag">Before</span>
           </div>
           <div class="proof-frame">
-            <img loading="lazy" decoding="async" src="assets/images/client1-after.jpg" alt="Client after coaching lean muscular transformation" />
+            <img loading="lazy" decoding="async" src="assets/images/client1-after.jpg" alt="Client after coaching" />
             <span class="proof-tag after-tag">After</span>
           </div>
         </div>
 
-        <!-- Slide 2: Coach Juan Transformation -->
-        <div
-          class="proof-slide"
-          data-caption="Coach Juan — From skinny beginner to shredded 5x Armwrestling Champion"
-        >
+        <div class="proof-slide" data-caption="Juan: from skinny schoolboy to 5x armwrestling champion">
+          <span class="proof-kind">Juan &middot; skinny to strong</span>
           <div class="proof-frame">
-            <img loading="lazy" decoding="async" src="assets/images/before-mirror.jpg" alt="Juan before transformation skinny mirror photo" />
-            <span class="proof-tag">Before</span>
+            <img loading="lazy" decoding="async" src="assets/images/before-uniform.jpg" alt="Juan as a skinny schoolboy" />
+            <span class="proof-tag">Age 14</span>
           </div>
           <div class="proof-frame">
-            <img loading="lazy" decoding="async" src="assets/images/after-track.jpg" alt="Juan after transformation shredded physique" />
-            <span class="proof-tag after-tag">After</span>
+            <img loading="lazy" decoding="async" src="assets/images/after-gym.jpg" alt="Juan today in the gym" />
+            <span class="proof-tag after-tag">Today</span>
           </div>
         </div>
 
-        <!-- Slide 3 -->
-        <div
-          class="proof-slide"
-          data-caption="Coach Juan — Built naturally through structured progressive overload, bodybuilding & powerlifting"
-        >
+        <div class="proof-slide" data-caption="Juan: 44 kg of muscle built over years of training">
+          <span class="proof-kind">Juan &middot; 42 kg to 86 kg</span>
           <div class="proof-frame">
-            <img loading="lazy" decoding="async" src="assets/images/before-uniform.jpg" alt="Juan before transformation school uniform" />
+            <img loading="lazy" decoding="async" src="assets/images/before-polo.jpg" alt="Juan before training" />
             <span class="proof-tag">Before</span>
           </div>
           <div class="proof-frame">
-            <img loading="lazy" decoding="async" src="assets/images/after-gym.jpg" alt="Juan after transformation in gym" />
-            <span class="proof-tag after-tag">After</span>
+            <img loading="lazy" decoding="async" src="assets/images/after-pool.jpg" alt="Juan today" />
+            <span class="proof-tag after-tag">86 kg</span>
           </div>
         </div>
-
-        <!-- Slide 4 -->
-        <div
-          class="proof-slide"
-          data-caption="Coach Juan — Balanced strength, aesthetic lean mass, and full joint mobility"
-        >
-          <div class="proof-frame">
-            <img loading="lazy" decoding="async" src="assets/images/before-polo.jpg" alt="Juan before transformation white polo" />
-            <span class="proof-tag">Before</span>
-          </div>
-          <div class="proof-frame">
-            <img loading="lazy" decoding="async" src="assets/images/after-pool.jpg" alt="Juan after transformation flexing by pool" />
-            <span class="proof-tag after-tag">After</span>
-          </div>
-        </div>
-
-        <!-- Slide 5 -->
-        <div
-          class="proof-slide"
-          data-caption="Coach Juan — Championship back thickness, tendon durability & pain-free strength"
-        >
-          <div class="proof-frame">
-            <img loading="lazy" decoding="async" src="assets/images/before-mirror.jpg" alt="Juan before transformation" />
-            <span class="proof-tag">Before</span>
-          </div>
-          <div class="proof-frame">
-            <img loading="lazy" decoding="async" src="assets/images/after-back.jpg" alt="Juan shredded muscular back" />
-            <span class="proof-tag after-tag">After</span>
-          </div>
-        </div>
-
         </div>
 
         <div class="proof-controls">
@@ -236,19 +196,19 @@
       </div>
       <div class="goal-grid">
         <button type="button" class="goal-tile" data-goal="Muscle Gain & Greek God Physique">
-          <img loading="lazy" decoding="async" src="assets/images/after-back.jpg" alt="" />
+          <img loading="lazy" decoding="async" src="assets/images/goal-build-muscle.jpg" alt="" />
           <span class="goal-label"><strong data-i18n="g1">Build muscle</strong><em data-i18n="g1s">Bigger, wider, stronger</em></span>
         </button>
         <button type="button" class="goal-tile" data-goal="Fat Loss & Wonder Woman Sculpt">
-          <img loading="lazy" decoding="async" src="assets/images/client1-after.jpg" alt="" />
+          <img loading="lazy" decoding="async" src="assets/images/goal-lose-fat.jpg" alt="" />
           <span class="goal-label"><strong data-i18n="g2">Lose fat</strong><em data-i18n="g2s">Lean and defined</em></span>
         </button>
         <button type="button" class="goal-tile" data-goal="Diet & Nutrition Mastery">
-          <img loading="lazy" decoding="async" src="assets/images/after-pool.jpg" alt="" />
+          <img loading="lazy" decoding="async" src="assets/images/goal-fix-my-diet.jpg" alt="" />
           <span class="goal-label"><strong data-i18n="g3">Fix my diet</strong><em data-i18n="g3s">Eat right without starving</em></span>
         </button>
         <button type="button" class="goal-tile" data-goal="Rehab, Powerlifting or Armwrestling">
-          <img loading="lazy" decoding="async" src="assets/images/after-gym.jpg" alt="" />
+          <img loading="lazy" decoding="async" src="assets/images/goal-get-strong.jpg" alt="" />
           <span class="goal-label"><strong data-i18n="g4">Get strong, pain-free</strong><em data-i18n="g4s">Rehab, powerlifting, armwrestling</em></span>
         </button>
       </div>
@@ -294,8 +254,8 @@
         >
           <div class="offer-media">
             <div class="ebook-stage">
-              <div class="ebook-book ebook-greek">
-                <img loading="lazy" decoding="async" src="assets/images/after-track.jpg" alt="Greek God Physique Ebook Cover" />
+              <div class="ebook-book ebook-greek ebook-art">
+                <img loading="lazy" decoding="async" src="assets/images/cover-greek-god.jpg" alt="Greek God Physique ebook cover" />
                 <span class="eb-kicker">MUSCLE &amp; STRENGTH SPLIT</span>
                 <div class="eb-title">GREEK GOD PHYSIQUE</div>
                 <div class="eb-footer">By Coach Juan &bull; Instant PDF</div>
@@ -345,7 +305,8 @@
         >
           <div class="offer-media">
             <div class="ebook-stage">
-              <div class="ebook-book ebook-wonder">
+              <div class="ebook-book ebook-wonder ebook-art">
+                <img loading="lazy" decoding="async" src="assets/images/cover-wonder-woman.jpg" alt="Wonder Woman Physique ebook cover" />
                 <span class="eb-kicker">FAT LOSS &amp; SCULPT SPLIT</span>
                 <div class="eb-title">WONDER WOMAN PHYSIQUE</div>
                 <div class="eb-footer">By Coach Juan &bull; Instant PDF</div>
@@ -395,7 +356,8 @@
         >
           <div class="offer-media">
             <div class="ebook-stage">
-              <div class="ebook-book ebook-roman">
+              <div class="ebook-book ebook-roman ebook-art">
+                <img loading="lazy" decoding="async" src="assets/images/cover-roman-diet.jpg" alt="The Roman Diet book cover" />
                 <span class="eb-kicker">CHAMPION NUTRITION BIBLE</span>
                 <div class="eb-title">THE ROMAN DIET</div>
                 <div class="eb-footer">Fat Loss &bull; Lean Bulk &bull; Meal Guide</div>
@@ -531,11 +493,10 @@
         >
           <div class="offer-media">
             <div class="ebook-stage">
-              <div class="ebook-book ebook-greek" style="width:156px;height:198px;">
-                <img loading="lazy" decoding="async" src="assets/images/after-back.jpg" alt="Complete 3-Book Stack Cover" />
-                <span class="eb-kicker">ALL 3 BOOKS &bull; BEST VALUE</span>
-                <div class="eb-title">THE COMPLETE EMPIRE STACK</div>
-                <div class="eb-footer">Greek God + Wonder Woman + Roman Diet</div>
+              <div class="ebook-trio" aria-label="All 3 books">
+                <img loading="lazy" decoding="async" src="assets/images/cover-wonder-woman.jpg" alt="" />
+                <img loading="lazy" decoding="async" src="assets/images/cover-roman-diet.jpg" alt="" />
+                <img loading="lazy" decoding="async" src="assets/images/cover-greek-god.jpg" alt="" />
               </div>
               <span class="ebook-price-tag">$49 USD</span>
             </div>
@@ -888,6 +849,6 @@
     </div>
   </div>
 
-  <script src="app.js"></script>
+  <script src="app.js?v=1126h"></script>
 </body>
 </html>

@@ -79,7 +79,7 @@ const COPY = {
     eliteTitle: "Pick your starting point.",
     eliteSub:
       "Start with a $15 physique ebook, master your nutrition with The Roman Diet, or train directly with Juan online or in-person.",
-    proofTitle: "Client results",
+    proofTitle: "Real results",
     proofBody:
       "Real fat loss. Real lean muscle. From dramatic client body recompositions to Juan's own journey from super-skinny teenager to 5x 1st Place Armwrestling Champion — the system works for every starting point.",
     proofCta: "See plans & prices",
@@ -157,7 +157,7 @@ const COPY = {
     eliteTitle: "Pilih titik awalmu.",
     eliteSub:
       "Mulai dari ebook fisik $15, kuasai nutrisi lewat The Roman Diet ($25), atau latihan langsung bersama Coach Juan online maupun offline.",
-    proofTitle: "Hasil klien",
+    proofTitle: "Hasil nyata",
     proofBody:
       "Fat loss nyata. Otot padat nyata. Dari transformasi klien yang luar biasa hingga perjalanan Juan sendiri dari sangat kurus menjadi 5x Juara 1 Armwrestling — sistem ini terbukti untuk berbagai titik awal.",
     proofCta: "Lihat paket & harga",
@@ -346,8 +346,15 @@ function initProofSlider() {
     track.scrollTo({ left: slides[idx].offsetLeft - track.offsetLeft, behavior: "smooth" });
     render();
   };
-  prevBtn.addEventListener("click", () => go(idx - 1));
-  nextBtn.addEventListener("click", () => go(idx + 1));
+  prevBtn.addEventListener("click", () => { pause(); go(idx - 1); });
+  nextBtn.addEventListener("click", () => { pause(); go(idx + 1); });
+  // Auto-advance while visible; a touch or click pauses it for a while
+  let auto = null, pausedUntil = 0, visible = false;
+  const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const pause = () => { pausedUntil = Date.now() + 9000; };
+  ["pointerdown", "touchstart", "wheel"].forEach((ev) => track.addEventListener(ev, pause, { passive: true }));
+  new IntersectionObserver((es) => { visible = es[0].isIntersecting; }, { threshold: 0.4 }).observe(track);
+  if (!reduce) auto = setInterval(() => { if (visible && Date.now() > pausedUntil && !document.hidden) go(idx + 1); }, 3500);
   let t;
   track.addEventListener("scroll", () => {
     clearTimeout(t);

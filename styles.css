@@ -2151,3 +2151,145 @@ section[id] { scroll-margin-top: 64px; }
   .creds-sub { font-size: 0.88rem; margin-bottom: 12px; }
   .creds .award-rank { font-size: 0.62rem; padding: 2px 7px; }
 }
+
+/* Proof slide label */
+.proof-slide { position: relative; }
+.proof-kind {
+  position: absolute; z-index: 3; left: 50%; bottom: 14px; transform: translateX(-50%);
+  background: var(--white); color: var(--black); border-radius: var(--radius-pill);
+  padding: 6px 12px; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; white-space: nowrap;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+}
+
+/* =========================================================
+   Phone density pass (26 Nov 2026, "too spread out")
+   ========================================================= */
+@media (max-width: 600px) {
+  .section-white, .section-stone, .goals, .story { padding: 28px 0; }
+  .display-lg { font-size: 1.38rem; line-height: 1.12; }
+  .micro-label { font-size: 0.6rem; }
+
+  /* Hero */
+  .hero { padding: 18px 0 20px; }
+  .display-xl { font-size: 1.95rem; }
+  .hero-grid { gap: 14px; }
+  .hero-sub { font-size: 0.86rem; line-height: 1.45; margin-top: 8px; }
+  .hero-kicker { display: none; }
+  .hero-divider { display: none; }
+  .hero-actions { margin-top: 14px; }
+  .ba { aspect-ratio: 4 / 3.6; }
+  .hero-showcase { gap: 6px; }
+  .hero-stats li { padding: 6px 8px; flex-direction: row; align-items: baseline; gap: 5px; }
+  .hero-stats strong { font-size: 0.95rem; }
+  .hero-stats span { font-size: 0.56rem; }
+
+  /* Proof */
+  .proof-grid { gap: 14px; }
+  .client-quote-box { padding: 10px 12px; margin: 8px 0 10px; }
+  .client-quote-box .quote-text { font-size: 0.8rem; margin: 0 0 4px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .client-quote-box .quote-meta { font-size: 0.58rem; }
+  .proof-copy .btn-pill { display: none; }
+  .proof-track .proof-slide { flex-basis: 86%; }
+  .proof-frame { aspect-ratio: 3 / 3.6; }
+  .proof-kind { bottom: 10px; font-size: 0.58rem; padding: 4px 10px; }
+  .proof-controls { margin-top: 8px; }
+  .proof-caption { font-size: 0.72rem; line-height: 1.35; }
+  .circle-btn { width: 30px; height: 30px; font-size: 0.85rem; }
+
+  /* Goals */
+  .goals-head { margin-bottom: 12px; }
+  .goals-head h2 { margin: 4px 0 4px; }
+  .goals-head p { font-size: 0.8rem; }
+  .goal-tile { aspect-ratio: 16 / 11; }
+  .goal-label em { display: none; }
+
+  /* Shop */
+  .collection-header { padding-bottom: 10px; gap: 10px; }
+  .collection-intro p { display: none; }
+  .how-steps { flex-direction: row; gap: 5px; }
+  .how-steps li { flex: 1; flex-direction: column; align-items: flex-start; gap: 4px; padding: 7px 8px; font-size: 0.64rem; line-height: 1.25; }
+  .how-steps strong { width: 18px; height: 18px; font-size: 0.6rem; }
+  .filter-toolbar { margin: 10px 0 10px; }
+  .filter-pill { padding: 7px 11px; font-size: 0.72rem; }
+  .offer-card { padding: 8px; column-gap: 10px; }
+  .offer-card > .offer-media { min-height: 118px; }
+  .offer-cat, .offer-save { display: none; }
+  .offer-title { font-size: 0.92rem; margin: 2px 0 1px; }
+  .offer-price { font-size: 0.98rem; }
+  .offer-price-row { margin-bottom: 6px; }
+  .tier-selector { margin-bottom: 6px; }
+  .offer-card .btn-pill { padding: 9px 10px; font-size: 0.74rem; }
+
+  /* Story: 2 x 2 cards */
+  .story-head { margin-bottom: 12px; }
+  .story-stats { padding: 9px 14px; }
+  .story-stats strong { font-size: 1.25rem; }
+  .story-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .story-step { flex-direction: column; }
+  .story-step img { width: 100%; min-height: 0; aspect-ratio: 16 / 11; }
+  .story-step > div { padding: 8px 9px 10px; }
+  .story-step h3 { font-size: 0.84rem; margin: 2px 0 3px; }
+  .story-step p { font-size: 0.7rem; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
+  .story-no { font-size: 0.52rem; }
+  .story-quote { margin-top: 14px; padding-left: 10px; }
+  .story-quote p { font-size: 0.88rem; }
+  .story-quote cite { font-size: 0.62rem; margin-top: 4px; }
+  .story-cta { margin-top: 12px; }
+  .story-cta-note { display: none; }
+
+  /* Credentials */
+  .creds-photo { display: none; }
+  .creds h2 { margin: 4px 0 6px; }
+  .creds-sub { font-size: 0.8rem; margin-bottom: 10px; }
+  .creds .awards-list { gap: 4px; margin-bottom: 12px; }
+  .creds .awards-list li { padding: 6px 9px; font-size: 0.72rem; gap: 8px; }
+  .specialty-pills { gap: 5px; }
+  .specialty-chip { padding: 5px 9px; font-size: 0.66rem; }
+
+  /* FAQ */
+  .faq-grid { gap: 12px; }
+  .faq-cta { margin-top: 10px; padding: 9px 14px; font-size: 0.78rem; }
+  .faq-list { gap: 5px; }
+  .faq-list summary { padding: 11px 0; font-size: 0.8rem; }
+  .faq-list details p { font-size: 0.76rem; padding-bottom: 11px; }
+
+  /* Banner */
+  .lifestyle-content { padding: 28px 0; }
+  .lifestyle-content p { display: none; }
+  .lifestyle-content h2 { margin-bottom: 14px; }
+
+  /* Footer: just the sample, a few links, small wordmark */
+  .site-footer { padding-top: 26px; }
+  .footer-top { grid-template-columns: minmax(0, 1fr); gap: 0; padding-bottom: 14px; }
+  .footer-col { display: none; }
+  .footer-newsletter h3 { font-size: 1.1rem; margin-bottom: 10px; }
+  .footer-disclaimer { font-size: 0.7rem; margin-top: 8px; }
+  .footer-giant-wordmark { font-size: 2.4rem; padding: 6px 0 12px; }
+  .footer-bottom { flex-direction: column; align-items: flex-start; gap: 6px; padding-top: 12px; font-size: 0.66rem; }
+}
+@media (max-width: 600px) {
+  .hero-stats li { flex-direction: column; align-items: flex-start; gap: 1px; padding: 6px 9px; }
+  .hero-stats strong { white-space: nowrap; }
+  .creds.section-white { padding-top: 6px; }
+  .story { padding-bottom: 22px; }
+  .story-step p { -webkit-line-clamp: unset; display: block; overflow: visible; }
+}
+
+/* Book covers: real cover art (no Juan photo) */
+.ebook-book.ebook-art img { opacity: 1; filter: none; }
+.ebook-book.ebook-art::after { content: ""; position: absolute; inset: 0; z-index: 1; background: linear-gradient(180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0) 38%, rgba(0,0,0,0) 62%, rgba(0,0,0,0.75) 100%); }
+.ebook-book.ebook-art > *:not(img) { z-index: 2; }
+.ebook-book.ebook-art .eb-title { text-shadow: 0 2px 10px rgba(0,0,0,0.6); }
+.ebook-trio { position: relative; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; }
+.ebook-trio img { position: absolute; width: 30%; aspect-ratio: 2 / 3; height: auto; object-fit: cover; border-radius: 3px 8px 8px 3px; box-shadow: -6px 12px 24px rgba(0,0,0,0.35); }
+.ebook-trio img:nth-child(1) { transform: translateX(-46%) rotate(-8deg); }
+.ebook-trio img:nth-child(2) { transform: translateX(46%) rotate(8deg); }
+.ebook-trio img:nth-child(3) { transform: translateY(-2%); z-index: 2; }
+@media (max-width: 600px) {
+  .offer-media .ebook-stage { padding: 8px; }
+  .ebook-book.ebook-art, .ebook-book.ebook-art[style] { width: 80% !important; height: auto !important; aspect-ratio: 2 / 3; }
+  .ebook-book.ebook-art .eb-kicker { font-size: 0.38rem; }
+  .ebook-book.ebook-art .eb-title { font-size: 0.6rem; }
+  .ebook-trio img { width: 36%; }
+}
+.goal-tile img { object-position: center 30%; }
