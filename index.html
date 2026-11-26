@@ -27,6 +27,7 @@
   <header class="site-header" id="siteHeader">
     <div class="container nav-inner">
       <div class="nav-left">
+        <a class="nav-link" href="#story">Story</a>
         <a class="nav-link" href="#programs">Ebooks &amp; Diet</a>
         <a class="nav-link" href="#flagship">1-on-1 Coaching</a>
         <a class="nav-link" href="#method">Specialties</a>
@@ -59,11 +60,13 @@
         <button id="mobileMenuClose" style="color:#fff;font-size:1.6rem;" aria-label="Close menu">&times;</button>
       </div>
       <div class="mobile-drawer-links">
+        <a href="#story">Juan's story</a>
         <a href="#programs">Greek God &amp; Wonder Woman ($15)</a>
         <a href="#programs">The Roman Diet ($25)</a>
         <a href="#flagship">Online ($100) &amp; Live 1-on-1 ($120)</a>
         <a href="#proof">Transformation Proof</a>
         <a href="#method">9 Specialties &amp; 7 Awards</a>
+        <a href="#faq">Questions</a>
       </div>
     </div>
     <div>
@@ -85,10 +88,9 @@
 
     <div class="container hero-grid">
       <div>
-        <h1 class="display-xl" data-i18n="heroTitle">Build a champion physique.</h1>
-        <span class="micro-label hero-kicker" data-i18n="heroKicker">
-          GREEK GOD ($15) &bull; WONDER WOMAN ($15) &bull; THE ROMAN DIET ($25) &bull; 1-ON-1 COACHING
-        </span>
+        <h1 class="display-xl" data-i18n="heroTitle">From 42 kg to champion.</h1>
+        <p class="hero-sub serif" data-i18n="heroSub">Bullied for being skinny at 14, Juan built himself to 86 kg and 5 armwrestling titles. Now he shows you exactly how.</p>
+        <span class="micro-label hero-kicker" data-i18n="heroKicker">5X 1ST PLACE ARMWRESTLING &bull; POWERLIFTING MEDALIST &bull; FROM $15</span>
         <div class="hero-divider"></div>
 
         <ul class="hero-bullets">
@@ -107,10 +109,8 @@
         </ul>
 
         <div class="hero-actions">
-          <a href="#programs" class="btn-pill btn-white" data-i18n="heroCtaPrimary">Explore Programs</a>
-          <button type="button" class="btn-pill btn-outline-light" data-open-quiz data-i18n="heroCtaSecondary">
-            30s Plan Matcher
-          </button>
+          <button type="button" class="btn-pill btn-white" data-open-quiz data-i18n="heroCtaPrimary">Find my plan (30s)</button>
+          <a href="#flagship" class="btn-pill btn-outline-light" data-i18n="heroCtaSecondary">See prices</a>
         </div>
       </div>
 
@@ -134,44 +134,321 @@
     </div>
   </section>
 
+  <!-- Juan's Story -->
+  <section class="story" id="story">
+    <div class="container">
+      <div class="story-head">
+        <span class="micro-label" data-i18n="storyKicker">JUAN'S STORY</span>
+        <h2 class="display-lg" data-i18n="storyTitle">From 42 kg to the body he once dreamed of.</h2>
+        <div class="story-stats" aria-label="Juan before and after">
+          <div><strong>42 kg</strong><span data-i18n="statThen">at 14 &bull; 178 cm</span></div>
+          <span class="story-arrow" aria-hidden="true">&rarr;</span>
+          <div><strong>86 kg</strong><span data-i18n="statNow">today &bull; 190 cm</span></div>
+        </div>
+      </div>
+      <ol class="story-steps">
+        <li class="story-step">
+          <img loading="lazy" decoding="async" src="assets/images/before-uniform.jpg" alt="Juan as a skinny schoolboy" />
+          <div>
+            <span class="story-no">01 &bull; AGE 14</span>
+            <h3 data-i18n="story1t">Skinny and bullied</h3>
+            <p data-i18n="story1p">42 kg at 178 cm. He was bullied for his body and lost his confidence. One day he decided he was done feeling that way.</p>
+          </div>
+        </li>
+        <li class="story-step">
+          <img loading="lazy" decoding="async" src="assets/images/before-polo.jpg" alt="Juan in his early training years" />
+          <div>
+            <span class="story-no">02 &bull; LEARNING</span>
+            <h3 data-i18n="story2t">4&ndash;5 hours a day of study</h3>
+            <p data-i18n="story2p">Research papers, studies, real-world coaches. How muscle grows, what makes you strong, how food, sleep and recovery change your body.</p>
+          </div>
+        </li>
+        <li class="story-step">
+          <img loading="lazy" decoding="async" src="assets/images/after-gym.jpg" alt="Juan training in the gym" />
+          <div>
+            <span class="story-no">03 &bull; TESTING</span>
+            <h3 data-i18n="story3t">Tested on himself</h3>
+            <p data-i18n="story3p">He questioned everything, tried it on his own body, kept what worked and dropped what didn't. Year after year. Then came 5 armwrestling titles and a powerlifting medal.</p>
+          </div>
+        </li>
+        <li class="story-step">
+          <img loading="lazy" decoding="async" src="assets/images/after-dark-mirror.jpg" alt="Coach Juan today" />
+          <div>
+            <span class="story-no">04 &bull; TODAY</span>
+            <h3 data-i18n="story4t">86 kg. Now he coaches you.</h3>
+            <p data-i18n="story4p">No trends, no random workouts, no guessing. Understand your body, follow proven principles, build habits that last.</p>
+          </div>
+        </li>
+      </ol>
+      <blockquote class="story-quote">
+        <p data-i18n="storyQuote">&ldquo;I know what it feels like to look in the mirror and wish things were different. And I know what's possible when you decide to do something about it.&rdquo;</p>
+        <cite>&mdash; Coach Juan</cite>
+      </blockquote>
+      <div class="story-cta">
+        <button type="button" class="btn-pill btn-black" data-open-quiz data-i18n="storyCta">Start your transformation</button>
+        <span class="story-cta-note" data-i18n="storyCtaNote">Ebooks from $15 &bull; Coaching from $100</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 4: Undeniable Proof on Warm Stone #EDEDE6 -->
+  <section class="section-stone" id="proof">
+    <div class="container proof-grid">
+      <div class="proof-copy">
+        <h2 class="display-lg" data-i18n="proofTitle">Undeniable Proof</h2>
+        <p class="serif" data-i18n="proofBody">
+          Real fat loss. Real lean muscle. From dramatic client body recompositions to Juan's own journey from
+          super-skinny teenager to 5x 1st Place Armwrestling Champion — the system works for every starting point.
+        </p>
+
+        <!-- Featured Client Testimonial -->
+        <div class="client-quote-box">
+          <div class="stars-gold" style="font-size:0.86rem;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="serif quote-text">
+            "Dropped serious body fat while building shoulders, chest, and real strength — without crash dieting or
+            getting injured. Coach Juan's training &amp; diet structure completely changed how I look and feel."
+          </p>
+          <div class="quote-meta">Verified Client Transformation &bull; Fat Loss &amp; Muscle Gain</div>
+        </div>
+
+        <button type="button" class="btn-pill btn-black" data-open-quiz data-i18n="proofCta">
+          Start Your Transformation
+        </button>
+
+        <div class="pedigree-strip">
+          <span class="micro-label">CHAMPIONSHIP PEDIGREE</span>
+          <div class="pedigree-logos">
+            <span class="pedigree-item serif-mark">IFA U-23</span>
+            <span class="pedigree-item">VIER INT'L</span>
+            <span class="pedigree-item">OKAMI OPEN</span>
+            <span class="pedigree-item serif-mark">RAWWar</span>
+            <span class="pedigree-item">GULAT TANGAN</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="proof-slider-wrap">
+        <!-- Slide 1: Real Client Fat Loss & Recomp Transformation -->
+        <div
+          class="proof-slide active"
+          data-caption="Client Transformation — Dramatic fat loss, lean abs & athletic muscle definition with Coach Juan"
+        >
+          <div class="proof-frame">
+            <img loading="lazy" decoding="async" src="assets/images/client1-before.jpg" alt="Client before coaching transformation" />
+            <span class="proof-tag">Before</span>
+          </div>
+          <div class="proof-frame">
+            <img loading="lazy" decoding="async" src="assets/images/client1-after.jpg" alt="Client after coaching lean muscular transformation" />
+            <span class="proof-tag after-tag">After</span>
+          </div>
+        </div>
+
+        <!-- Slide 2: Coach Juan Transformation -->
+        <div
+          class="proof-slide"
+          data-caption="Coach Juan — From skinny beginner to shredded 5x Armwrestling Champion"
+        >
+          <div class="proof-frame">
+            <img loading="lazy" decoding="async" src="assets/images/before-mirror.jpg" alt="Juan before transformation skinny mirror photo" />
+            <span class="proof-tag">Before</span>
+          </div>
+          <div class="proof-frame">
+            <img loading="lazy" decoding="async" src="assets/images/after-track.jpg" alt="Juan after transformation shredded physique" />
+            <span class="proof-tag after-tag">After</span>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div
+          class="proof-slide"
+          data-caption="Coach Juan — Built naturally through structured progressive overload, bodybuilding & powerlifting"
+        >
+          <div class="proof-frame">
+            <img loading="lazy" decoding="async" src="assets/images/before-uniform.jpg" alt="Juan before transformation school uniform" />
+            <span class="proof-tag">Before</span>
+          </div>
+          <div class="proof-frame">
+            <img loading="lazy" decoding="async" src="assets/images/after-gym.jpg" alt="Juan after transformation in gym" />
+            <span class="proof-tag after-tag">After</span>
+          </div>
+        </div>
+
+        <!-- Slide 4 -->
+        <div
+          class="proof-slide"
+          data-caption="Coach Juan — Balanced strength, aesthetic lean mass, and full joint mobility"
+        >
+          <div class="proof-frame">
+            <img loading="lazy" decoding="async" src="assets/images/before-polo.jpg" alt="Juan before transformation white polo" />
+            <span class="proof-tag">Before</span>
+          </div>
+          <div class="proof-frame">
+            <img loading="lazy" decoding="async" src="assets/images/after-pool.jpg" alt="Juan after transformation flexing by pool" />
+            <span class="proof-tag after-tag">After</span>
+          </div>
+        </div>
+
+        <!-- Slide 5 -->
+        <div
+          class="proof-slide"
+          data-caption="Coach Juan — Championship back thickness, tendon durability & pain-free strength"
+        >
+          <div class="proof-frame">
+            <img loading="lazy" decoding="async" src="assets/images/before-mirror.jpg" alt="Juan before transformation" />
+            <span class="proof-tag">Before</span>
+          </div>
+          <div class="proof-frame">
+            <img loading="lazy" decoding="async" src="assets/images/after-back.jpg" alt="Juan shredded muscular back" />
+            <span class="proof-tag after-tag">After</span>
+          </div>
+        </div>
+
+        <div class="proof-controls">
+          <span class="serif proof-caption" id="proofCaption"></span>
+          <div class="circle-arrows">
+            <span id="proofCounter" style="font-size:0.82rem;color:#74746e;margin-right:4px;">01 / 05</span>
+            <button type="button" class="circle-btn" id="proofPrev" aria-label="Previous transformation">&larr;</button>
+            <button type="button" class="circle-btn" id="proofNext" aria-label="Next transformation">&rarr;</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3: 3-Column Dark Flagship Cards (Kinobody "Elite formulas" Section) -->
+  <section class="section-white" id="flagship" >
+    <div class="container">
+      <div class="elite-header">
+        <h2 class="display-lg" data-i18n="eliteTitle">Pick your starting point.</h2>
+        <p class="serif" data-i18n="eliteSub">
+          Start with a $15 physique ebook, master your nutrition with The Roman Diet, or train directly with Juan online
+          or in-person.
+        </p>
+      </div>
+
+      <div class="elite-grid">
+        <!-- Dark Card 1: Ebook & Diet Collection -->
+        <div class="elite-card">
+          <div class="elite-card-img">
+            <img loading="lazy" decoding="async" src="assets/images/after-dark-mirror.jpg" alt="Greek God Physique, Wonder Woman Physique and The Roman Diet" />
+          </div>
+          <div class="elite-card-body">
+            <span class="micro-label">STEP 01 &bull; DIGITAL BOOKS</span>
+            <h3>Physique Ebooks &amp; The Roman Diet</h3>
+            <p class="serif">
+              Pick <strong>Greek God Physique ($15)</strong> for muscle gain, <strong>Wonder Woman Physique ($15)</strong>
+              for sculpted fat loss, and pair with <strong>The Roman Diet ($25)</strong>.
+            </p>
+            <ul class="elite-checks">
+              <li><span>&check;</span><span>Greek God Physique &amp; Wonder Woman Physique — $15 each</span></li>
+              <li><span>&check;</span><span>The Roman Diet Nutrition Book — $25</span></li>
+              <li><span>&check;</span><span>Instant PDF delivery built for TikTok &amp; FB beginners</span></li>
+            </ul>
+            <div class="elite-card-footer">
+              <div class="elite-price-line">
+                <span>Ebooks / Diet Book</span>
+                <strong>$15 – $25 USD</strong>
+              </div>
+              <button
+                type="button"
+                class="btn-pill btn-white"
+                style="width:100%;"
+                data-wa-direct="Ebook / Diet Book (Greek God $15 / Wonder Woman $15 / The Roman Diet $25)"
+              >
+                Order Books Now
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dark Card 2: Online Coaching 10 Sessions ($100) -->
+        <div class="elite-card">
+          <div class="elite-card-img">
+            <img loading="lazy" decoding="async" src="assets/images/after-back.jpg" alt="Coach Juan 10 Sessions Online Coaching" />
+          </div>
+          <div class="elite-card-body">
+            <span class="micro-label">STEP 02 &bull; 10 SESSIONS ONLINE</span>
+            <h3>Online Coaching — 10 Sessions</h3>
+            <p class="serif">
+              Personal programming and 10 guided online coaching sessions tailored to your physique, gym setup, and
+              injury-prevention goals from anywhere.
+            </p>
+            <ul class="elite-checks">
+              <li><span>&check;</span><span>10 full coaching sessions with direct video form checks</span></li>
+              <li><span>&check;</span><span>Custom Fat Loss, Muscle Gain, Powerlifting or Calisthenics plan</span></li>
+              <li><span>&check;</span><span>Direct WhatsApp accountability &amp; progressive tracking</span></li>
+            </ul>
+            <div class="elite-card-footer">
+              <div class="elite-price-line">
+                <span>10 Sessions Package</span>
+                <strong>$100 USD</strong>
+              </div>
+              <button
+                type="button"
+                class="btn-pill btn-white"
+                style="width:100%;"
+                data-wa-direct="Online Coaching — 10 Sessions ($100 USD)"
+              >
+                Start Online Coaching ($100)
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dark Card 3: Live 1-on-1 Offline Coaching ($120) -->
+        <div class="elite-card">
+          <div class="elite-card-img">
+            <img loading="lazy" decoding="async" src="assets/images/after-track.jpg" alt="Live 1-on-1 Coaching in Jakarta Gading Serpong and BSD" />
+          </div>
+          <div class="elite-card-body">
+            <span class="micro-label">STEP 03 &bull; LIVE IN-PERSON</span>
+            <h3>Live 1-on-1 Coaching</h3>
+            <p class="serif">
+              Train directly beside Coach Juan in <strong>Jakarta, Gading Serpong &amp; BSD</strong> for real-time cueing,
+              rehab precision, and elite accountability.
+            </p>
+            <ul class="elite-checks">
+              <li><span>&check;</span><span>Hands-on form correction, biomechanics &amp; injury prevention</span></li>
+              <li><span>&check;</span><span>Fat loss, bodybuilding, powerlifting, rehab &amp; armwrestling</span></li>
+              <li><span>&check;</span><span>Serving Gading Serpong, BSD City &amp; Jakarta</span></li>
+            </ul>
+            <div class="elite-card-footer">
+              <div class="elite-price-line">
+                <span>Live 1-on-1 Package</span>
+                <strong>$120 USD</strong>
+              </div>
+              <button
+                type="button"
+                class="btn-pill btn-white"
+                style="width:100%;"
+                data-wa-direct="Live 1-on-1 Offline Coaching ($120 USD) — Jakarta / Gading Serpong / BSD"
+              >
+                Book Live 1-on-1 ($120)
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Section 2: Filterable Programs, Ebooks & Diet Collection (Kinobody Grid Rhythm) -->
   <section class="section-white" id="programs">
     <div class="container">
       <div class="collection-header">
         <div class="collection-intro">
-          <h2 class="display-lg" data-i18n="collectionTitle">The Coaching Collection</h2>
+          <h2 class="display-lg" data-i18n="collectionTitle">All books &amp; coaching</h2>
           <p class="serif" data-i18n="collectionSub">
             Split-specific ebooks, The Roman Diet nutrition guide, 10-session online coaching, and live 1-on-1 sessions
             in Jakarta, Gading Serpong &amp; BSD.
           </p>
         </div>
 
-        <div class="intake-counter">
-          <div class="counter-digits" aria-label="Monthly coaching batch countdown">
-            <div class="counter-unit">
-              <strong id="cd-days">04</strong>
-              <span>Days</span>
-            </div>
-            <span class="counter-sep">:</span>
-            <div class="counter-unit">
-              <strong id="cd-hrs">18</strong>
-              <span>Hrs</span>
-            </div>
-            <span class="counter-sep">:</span>
-            <div class="counter-unit">
-              <strong id="cd-min">42</strong>
-              <span>Min</span>
-            </div>
-            <span class="counter-sep">:</span>
-            <div class="counter-unit">
-              <strong id="cd-sec">00</strong>
-              <span>Sec</span>
-            </div>
-          </div>
-          <p class="serif counter-note" data-i18n="counterNote">
-            Limited monthly live 1-on-1 slots in Jakarta, Gading Serpong &amp; BSD.
-          </p>
-        </div>
+        <ol class="how-steps" aria-label="How buying works">
+          <li><strong>1</strong><span data-i18n="how1">Pick a book or coaching plan</span></li>
+          <li><strong>2</strong><span data-i18n="how2">Tap the button, chat with Juan on WhatsApp</span></li>
+          <li><strong>3</strong><span data-i18n="how3">Pay, get your PDF or book your first session</span></li>
+        </ol>
       </div>
 
       <!-- Benefit Filter Pills -->
@@ -536,246 +813,8 @@
     </div>
   </section>
 
-  <!-- Section 3: 3-Column Dark Flagship Cards (Kinobody "Elite formulas" Section) -->
-  <section class="section-white" id="flagship" style="padding-top:20px;">
-    <div class="container">
-      <div class="elite-header">
-        <h2 class="display-lg" data-i18n="eliteTitle">Elite programs for the high-performance life.</h2>
-        <p class="serif" data-i18n="eliteSub">
-          Start with a $15 physique ebook, master your nutrition with The Roman Diet, or train directly with Juan online
-          or in-person.
-        </p>
-      </div>
 
-      <div class="elite-grid">
-        <!-- Dark Card 1: Ebook & Diet Collection -->
-        <div class="elite-card">
-          <div class="elite-card-img">
-            <img loading="lazy" decoding="async" src="assets/images/after-dark-mirror.jpg" alt="Greek God Physique, Wonder Woman Physique and The Roman Diet" />
-          </div>
-          <div class="elite-card-body">
-            <span class="micro-label">STEP 01 &bull; DIGITAL BOOKS</span>
-            <h3>Physique Ebooks &amp; The Roman Diet</h3>
-            <p class="serif">
-              Pick <strong>Greek God Physique ($15)</strong> for muscle gain, <strong>Wonder Woman Physique ($15)</strong>
-              for sculpted fat loss, and pair with <strong>The Roman Diet ($25)</strong>.
-            </p>
-            <ul class="elite-checks">
-              <li><span>&check;</span><span>Greek God Physique &amp; Wonder Woman Physique — $15 each</span></li>
-              <li><span>&check;</span><span>The Roman Diet Nutrition Book — $25</span></li>
-              <li><span>&check;</span><span>Instant PDF delivery built for TikTok &amp; FB beginners</span></li>
-            </ul>
-            <div class="elite-card-footer">
-              <div class="elite-price-line">
-                <span>Ebooks / Diet Book</span>
-                <strong>$15 – $25 USD</strong>
-              </div>
-              <button
-                type="button"
-                class="btn-pill btn-white"
-                style="width:100%;"
-                data-wa-direct="Ebook / Diet Book (Greek God $15 / Wonder Woman $15 / The Roman Diet $25)"
-              >
-                Order Books Now
-              </button>
-            </div>
-          </div>
-        </div>
 
-        <!-- Dark Card 2: Online Coaching 10 Sessions ($100) -->
-        <div class="elite-card">
-          <div class="elite-card-img">
-            <img loading="lazy" decoding="async" src="assets/images/after-back.jpg" alt="Coach Juan 10 Sessions Online Coaching" />
-          </div>
-          <div class="elite-card-body">
-            <span class="micro-label">STEP 02 &bull; 10 SESSIONS ONLINE</span>
-            <h3>Online Coaching — 10 Sessions</h3>
-            <p class="serif">
-              Personal programming and 10 guided online coaching sessions tailored to your physique, gym setup, and
-              injury-prevention goals from anywhere.
-            </p>
-            <ul class="elite-checks">
-              <li><span>&check;</span><span>10 full coaching sessions with direct video form checks</span></li>
-              <li><span>&check;</span><span>Custom Fat Loss, Muscle Gain, Powerlifting or Calisthenics plan</span></li>
-              <li><span>&check;</span><span>Direct WhatsApp accountability &amp; progressive tracking</span></li>
-            </ul>
-            <div class="elite-card-footer">
-              <div class="elite-price-line">
-                <span>10 Sessions Package</span>
-                <strong>$100 USD</strong>
-              </div>
-              <button
-                type="button"
-                class="btn-pill btn-white"
-                style="width:100%;"
-                data-wa-direct="Online Coaching — 10 Sessions ($100 USD)"
-              >
-                Start Online Coaching ($100)
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Dark Card 3: Live 1-on-1 Offline Coaching ($120) -->
-        <div class="elite-card">
-          <div class="elite-card-img">
-            <img loading="lazy" decoding="async" src="assets/images/after-track.jpg" alt="Live 1-on-1 Coaching in Jakarta Gading Serpong and BSD" />
-          </div>
-          <div class="elite-card-body">
-            <span class="micro-label">STEP 03 &bull; LIVE IN-PERSON</span>
-            <h3>Live 1-on-1 Coaching</h3>
-            <p class="serif">
-              Train directly beside Coach Juan in <strong>Jakarta, Gading Serpong &amp; BSD</strong> for real-time cueing,
-              rehab precision, and elite accountability.
-            </p>
-            <ul class="elite-checks">
-              <li><span>&check;</span><span>Hands-on form correction, biomechanics &amp; injury prevention</span></li>
-              <li><span>&check;</span><span>Fat loss, bodybuilding, powerlifting, rehab &amp; armwrestling</span></li>
-              <li><span>&check;</span><span>Serving Gading Serpong, BSD City &amp; Jakarta</span></li>
-            </ul>
-            <div class="elite-card-footer">
-              <div class="elite-price-line">
-                <span>Live 1-on-1 Package</span>
-                <strong>$120 USD</strong>
-              </div>
-              <button
-                type="button"
-                class="btn-pill btn-white"
-                style="width:100%;"
-                data-wa-direct="Live 1-on-1 Offline Coaching ($120 USD) — Jakarta / Gading Serpong / BSD"
-              >
-                Book Live 1-on-1 ($120)
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Section 4: Undeniable Proof on Warm Stone #EDEDE6 -->
-  <section class="section-stone" id="proof">
-    <div class="container proof-grid">
-      <div class="proof-copy">
-        <h2 class="display-lg" data-i18n="proofTitle">Undeniable Proof</h2>
-        <p class="serif" data-i18n="proofBody">
-          Real fat loss. Real lean muscle. From dramatic client body recompositions to Juan's own journey from
-          super-skinny teenager to 5x 1st Place Armwrestling Champion — the system works for every starting point.
-        </p>
-
-        <!-- Featured Client Testimonial -->
-        <div class="client-quote-box">
-          <div class="stars-gold" style="font-size:0.86rem;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-          <p class="serif quote-text">
-            "Dropped serious body fat while building shoulders, chest, and real strength — without crash dieting or
-            getting injured. Coach Juan's training &amp; diet structure completely changed how I look and feel."
-          </p>
-          <div class="quote-meta">Verified Client Transformation &bull; Fat Loss &amp; Muscle Gain</div>
-        </div>
-
-        <button type="button" class="btn-pill btn-black" data-open-quiz data-i18n="proofCta">
-          Start Your Transformation
-        </button>
-
-        <div class="pedigree-strip">
-          <span class="micro-label">CHAMPIONSHIP PEDIGREE</span>
-          <div class="pedigree-logos">
-            <span class="pedigree-item serif-mark">IFA U-23</span>
-            <span class="pedigree-item">VIER INT'L</span>
-            <span class="pedigree-item">OKAMI OPEN</span>
-            <span class="pedigree-item serif-mark">RAWWar</span>
-            <span class="pedigree-item">GULAT TANGAN</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="proof-slider-wrap">
-        <!-- Slide 1: Real Client Fat Loss & Recomp Transformation -->
-        <div
-          class="proof-slide active"
-          data-caption="Client Transformation — Dramatic fat loss, lean abs & athletic muscle definition with Coach Juan"
-        >
-          <div class="proof-frame">
-            <img loading="lazy" decoding="async" src="assets/images/client1-before.jpg" alt="Client before coaching transformation" />
-            <span class="proof-tag">Before</span>
-          </div>
-          <div class="proof-frame">
-            <img loading="lazy" decoding="async" src="assets/images/client1-after.jpg" alt="Client after coaching lean muscular transformation" />
-            <span class="proof-tag after-tag">After</span>
-          </div>
-        </div>
-
-        <!-- Slide 2: Coach Juan Transformation -->
-        <div
-          class="proof-slide"
-          data-caption="Coach Juan — From skinny beginner to shredded 5x Armwrestling Champion"
-        >
-          <div class="proof-frame">
-            <img loading="lazy" decoding="async" src="assets/images/before-mirror.jpg" alt="Juan before transformation skinny mirror photo" />
-            <span class="proof-tag">Before</span>
-          </div>
-          <div class="proof-frame">
-            <img loading="lazy" decoding="async" src="assets/images/after-track.jpg" alt="Juan after transformation shredded physique" />
-            <span class="proof-tag after-tag">After</span>
-          </div>
-        </div>
-
-        <!-- Slide 3 -->
-        <div
-          class="proof-slide"
-          data-caption="Coach Juan — Built naturally through structured progressive overload, bodybuilding & powerlifting"
-        >
-          <div class="proof-frame">
-            <img loading="lazy" decoding="async" src="assets/images/before-uniform.jpg" alt="Juan before transformation school uniform" />
-            <span class="proof-tag">Before</span>
-          </div>
-          <div class="proof-frame">
-            <img loading="lazy" decoding="async" src="assets/images/after-gym.jpg" alt="Juan after transformation in gym" />
-            <span class="proof-tag after-tag">After</span>
-          </div>
-        </div>
-
-        <!-- Slide 4 -->
-        <div
-          class="proof-slide"
-          data-caption="Coach Juan — Balanced strength, aesthetic lean mass, and full joint mobility"
-        >
-          <div class="proof-frame">
-            <img loading="lazy" decoding="async" src="assets/images/before-polo.jpg" alt="Juan before transformation white polo" />
-            <span class="proof-tag">Before</span>
-          </div>
-          <div class="proof-frame">
-            <img loading="lazy" decoding="async" src="assets/images/after-pool.jpg" alt="Juan after transformation flexing by pool" />
-            <span class="proof-tag after-tag">After</span>
-          </div>
-        </div>
-
-        <!-- Slide 5 -->
-        <div
-          class="proof-slide"
-          data-caption="Coach Juan — Championship back thickness, tendon durability & pain-free strength"
-        >
-          <div class="proof-frame">
-            <img loading="lazy" decoding="async" src="assets/images/before-mirror.jpg" alt="Juan before transformation" />
-            <span class="proof-tag">Before</span>
-          </div>
-          <div class="proof-frame">
-            <img loading="lazy" decoding="async" src="assets/images/after-back.jpg" alt="Juan shredded muscular back" />
-            <span class="proof-tag after-tag">After</span>
-          </div>
-        </div>
-
-        <div class="proof-controls">
-          <span class="serif proof-caption" id="proofCaption"></span>
-          <div class="circle-arrows">
-            <span id="proofCounter" style="font-size:0.82rem;color:#74746e;margin-right:4px;">01 / 05</span>
-            <button type="button" class="circle-btn" id="proofPrev" aria-label="Previous transformation">&larr;</button>
-            <button type="button" class="circle-btn" id="proofNext" aria-label="Next transformation">&rarr;</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- Section 5: Interactive Authority Tabs (Kinobody Mission / Ingredients / Guarantee) -->
   <section class="section-white" id="method">
@@ -879,6 +918,39 @@
     </div>
   </section>
 
+  <!-- FAQ -->
+  <section class="section-white faq" id="faq">
+    <div class="container faq-grid">
+      <div>
+        <span class="micro-label" style="color:#74746e;">QUESTIONS</span>
+        <h2 class="display-lg" data-i18n="faqTitle">Before you start</h2>
+        <button type="button" class="btn-pill btn-black faq-cta" data-wa-direct="A question before I start" data-i18n="faqCta">Ask Juan on WhatsApp</button>
+      </div>
+      <div class="faq-list">
+        <details open>
+          <summary data-i18n="faq1q">I'm a total beginner. Is this for me?</summary>
+          <p data-i18n="faq1a">Yes. Juan started at 42 kg himself. The ebooks start from the basics, and coaching is built around where you are now.</p>
+        </details>
+        <details>
+          <summary data-i18n="faq2q">How do I get the ebook after paying?</summary>
+          <p data-i18n="faq2a">Tap Get, chat with Juan on WhatsApp, pay, and the PDF is sent to you. Read it on your phone at the gym.</p>
+        </details>
+        <details>
+          <summary data-i18n="faq3q">Which one should I pick?</summary>
+          <p data-i18n="faq3a">Want to train on your own? Start with an ebook ($15) plus The Roman Diet ($25). Want Juan checking your form and plan? Online coaching ($100 for 10 sessions). Near Jakarta, Gading Serpong or BSD? Live 1-on-1 ($120).</p>
+        </details>
+        <details>
+          <summary data-i18n="faq4q">I have an old injury. Can I still train?</summary>
+          <p data-i18n="faq4a">Rehab and injury prevention are part of what Juan coaches. Tell him about it on WhatsApp first so your plan works around it.</p>
+        </details>
+        <details>
+          <summary data-i18n="faq5q">Where do live sessions happen?</summary>
+          <p data-i18n="faq5a">Jakarta, Gading Serpong and BSD. Live slots are limited each month, so message early. Outside these areas, pick online coaching.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
   <!-- Section 6: Full-Bleed Dark Lifestyle Banner (Kinobody App Banner) -->
   <section class="lifestyle-banner">
     <img loading="lazy" decoding="async" class="lifestyle-bg" src="assets/images/after-track.jpg" alt="Coach Juan evening athletic portrait" />
@@ -924,19 +996,8 @@
       <div class="footer-top">
         <div class="footer-newsletter">
           <h3>Get a free sample of The Roman Diet + coaching updates.</h3>
-          <form class="newsletter-form" id="newsletterForm">
-            <input
-              type="text"
-              id="newsletterEmail"
-              placeholder="Email or WhatsApp number"
-              aria-label="Email or WhatsApp number"
-              required
-            />
-            <button type="submit">Submit</button>
-          </form>
-          <p class="serif footer-disclaimer" id="newsletterFeedback">
-            Zero spam. Get early access to Ebook drops and new Live 1-on-1 slots in Jakarta, Gading Serpong &amp; BSD.
-          </p>
+          <button type="button" class="btn-pill btn-white" data-wa-direct="Free sample of The Roman Diet" data-i18n="sampleCta">Get the free sample on WhatsApp</button>
+          <p class="serif footer-disclaimer">No spam. Juan sends the sample and new live 1-on-1 slots in Jakarta, Gading Serpong &amp; BSD.</p>
         </div>
 
         <div class="footer-col">
@@ -974,6 +1035,15 @@
       </div>
     </div>
   </footer>
+
+  <!-- Sticky phone buy bar -->
+  <div class="buy-bar" id="buyBar" aria-hidden="true">
+    <div class="buy-bar-text">
+      <strong data-i18n="barTitle">Ebooks from $15</strong>
+      <span data-i18n="barSub">Coaching from $100</span>
+    </div>
+    <button type="button" class="btn-pill btn-white" data-open-quiz data-i18n="barCta">Find my plan</button>
+  </div>
 
   <!-- Floating Monochrome Chat Launcher (Kinobody-style bottom-right button) -->
   <button

@@ -14,18 +14,53 @@ const COPY = {
   en: {
     announcement: "Ebooks $15 • The Roman Diet $25 • Online 10 Sessions $100 • Live 1-on-1 $120 (Jakarta, Gading Serpong & BSD)",
     announcementCta: "Match Your Plan",
-    heroTitle: "Build a champion physique.",
-    heroKicker: "GREEK GOD ($15) • WONDER WOMAN ($15) • THE ROMAN DIET ($25) • 1-ON-1 COACHING",
+    heroTitle: "From 42 kg to champion.",
+    heroSub: "Bullied for being skinny at 14, Juan built himself to 86 kg and 5 armwrestling titles. Now he shows you exactly how.",
+    storyKicker: "JUAN'S STORY",
+    storyTitle: "From 42 kg to the body he once dreamed of.",
+    statThen: "at 14 • 178 cm",
+    statNow: "today • 190 cm",
+    story1t: "Skinny and bullied",
+    story1p: "42 kg at 178 cm. He was bullied for his body and lost his confidence. One day he decided he was done feeling that way.",
+    story2t: "4–5 hours a day of study",
+    story2p: "Research papers, studies, real-world coaches. How muscle grows, what makes you strong, how food, sleep and recovery change your body.",
+    story3t: "Tested on himself",
+    story3p: "He questioned everything, tried it on his own body, kept what worked and dropped what didn't. Year after year. Then came 5 armwrestling titles and a powerlifting medal.",
+    story4t: "86 kg. Now he coaches you.",
+    story4p: "No trends, no random workouts, no guessing. Understand your body, follow proven principles, build habits that last.",
+    storyQuote: "“I know what it feels like to look in the mirror and wish things were different. And I know what's possible when you decide to do something about it.”",
+    storyCta: "Start your transformation",
+    storyCtaNote: "Ebooks from $15 • Coaching from $100",
+    how1: "Pick a book or coaching plan",
+    how2: "Tap the button, chat with Juan on WhatsApp",
+    how3: "Pay, get your PDF or book your first session",
+    faqTitle: "Before you start",
+    faqCta: "Ask Juan on WhatsApp",
+    faq1q: "I'm a total beginner. Is this for me?",
+    faq1a: "Yes. Juan started at 42 kg himself. The ebooks start from the basics, and coaching is built around where you are now.",
+    faq2q: "How do I get the ebook after paying?",
+    faq2a: "Tap Get, chat with Juan on WhatsApp, pay, and the PDF is sent to you. Read it on your phone at the gym.",
+    faq3q: "Which one should I pick?",
+    faq3a: "Want to train on your own? Start with an ebook ($15) plus The Roman Diet ($25). Want Juan checking your form and plan? Online coaching ($100 for 10 sessions). Near Jakarta, Gading Serpong or BSD? Live 1-on-1 ($120).",
+    faq4q: "I have an old injury. Can I still train?",
+    faq4a: "Rehab and injury prevention are part of what Juan coaches. Tell him about it on WhatsApp first so your plan works around it.",
+    faq5q: "Where do live sessions happen?",
+    faq5a: "Jakarta, Gading Serpong and BSD. Live slots are limited each month, so message early. Outside these areas, pick online coaching.",
+    sampleCta: "Get the free sample on WhatsApp",
+    barTitle: "Ebooks from $15",
+    barSub: "Coaching from $100",
+    barCta: "Find my plan",
+    heroKicker: "5X 1ST PLACE ARMWRESTLING • POWERLIFTING MEDALIST • FROM $15",
     heroB1: "Skinny-to-5x Armwrestling Champion & Powerlifting Medalist proven system",
     heroB2: "Fat Loss, Muscle Gain, Rehabilitation, Injury Prevention & Mobility",
     heroB3: "Online Coaching (10 Sessions $100) & Live 1-on-1 ($120) in Jakarta, Gading Serpong & BSD",
-    heroCtaPrimary: "Explore Programs",
-    heroCtaSecondary: "30s Plan Matcher",
-    collectionTitle: "The Coaching Collection",
+    heroCtaPrimary: "Find my plan (30s)",
+    heroCtaSecondary: "See prices",
+    collectionTitle: "All books & coaching",
     collectionSub:
       "Split-specific ebooks, The Roman Diet nutrition guide, 10-session online coaching, and live 1-on-1 sessions in Jakarta, Gading Serpong & BSD.",
     counterNote: "Limited monthly live 1-on-1 slots in Jakarta, Gading Serpong & BSD.",
-    eliteTitle: "Elite programs for the high-performance life.",
+    eliteTitle: "Pick your starting point.",
     eliteSub:
       "Start with a $15 physique ebook, master your nutrition with The Roman Diet, or train directly with Juan online or in-person.",
     proofTitle: "Undeniable Proof",
@@ -41,18 +76,53 @@ const COPY = {
   id: {
     announcement: "Ebook $15 • The Roman Diet $25 • Online 10 Sesi $100 • Live 1-on-1 $120 (Jakarta, Gading Serpong & BSD)",
     announcementCta: "Cek Program Cocok",
-    heroTitle: "Bangun fisik & kekuatan juara.",
-    heroKicker: "GREEK GOD ($15) • WONDER WOMAN ($15) • THE ROMAN DIET ($25) • 1-ON-1 COACHING",
+    heroTitle: "Dari 42 kg jadi juara.",
+    heroSub: "Di-bully karena kurus di usia 14, Juan membangun tubuhnya sampai 86 kg dan 5 gelar armwrestling. Sekarang dia tunjukkan caranya ke kamu.",
+    storyKicker: "CERITA JUAN",
+    storyTitle: "Dari 42 kg ke tubuh yang dulu cuma bisa dia impikan.",
+    statThen: "usia 14 • 178 cm",
+    statNow: "sekarang • 190 cm",
+    story1t: "Kurus dan di-bully",
+    story1p: "42 kg dengan tinggi 178 cm. Dia di-bully karena fisiknya dan kehilangan rasa percaya diri. Sampai suatu hari dia memutuskan untuk berubah.",
+    story2t: "Belajar 4–5 jam sehari",
+    story2p: "Jurnal ilmiah, riset, pengalaman nyata para coach. Cara otot tumbuh, apa yang bikin kuat, dan bagaimana makan, tidur dan recovery mengubah tubuh.",
+    story3t: "Diuji di tubuh sendiri",
+    story3p: "Dia mempertanyakan semuanya, mencobanya sendiri, menyimpan yang berhasil dan membuang yang tidak. Tahun demi tahun. Lalu datang 5 gelar armwrestling dan medali powerlifting.",
+    story4t: "86 kg. Sekarang dia melatih kamu.",
+    story4p: "Bukan ikut tren, bukan latihan asal, bukan tebak-tebakan. Pahami tubuhmu, ikuti prinsip yang terbukti, bangun kebiasaan yang bertahan.",
+    storyQuote: "“Saya tahu rasanya bercermin dan berharap semuanya berbeda. Dan saya tahu apa yang mungkin terjadi saat kamu memutuskan untuk bertindak.”",
+    storyCta: "Mulai transformasimu",
+    storyCtaNote: "Ebook mulai $15 • Coaching mulai $100",
+    how1: "Pilih buku atau paket coaching",
+    how2: "Tekan tombol, chat Juan di WhatsApp",
+    how3: "Bayar, terima PDF atau jadwalkan sesi pertama",
+    faqTitle: "Sebelum mulai",
+    faqCta: "Tanya Juan di WhatsApp",
+    faq1q: "Saya pemula total. Apakah cocok?",
+    faq1a: "Ya. Juan sendiri mulai dari 42 kg. Ebook dimulai dari dasar, dan coaching disesuaikan dengan kondisimu sekarang.",
+    faq2q: "Bagaimana saya menerima ebook setelah bayar?",
+    faq2a: "Tekan Get, chat Juan di WhatsApp, bayar, lalu PDF dikirim ke kamu. Baca langsung di HP saat di gym.",
+    faq3q: "Saya harus pilih yang mana?",
+    faq3a: "Mau latihan sendiri? Mulai dengan ebook ($15) plus The Roman Diet ($25). Mau Juan cek form dan program kamu? Online coaching ($100 untuk 10 sesi). Dekat Jakarta, Gading Serpong atau BSD? Live 1-on-1 ($120).",
+    faq4q: "Saya punya cedera lama. Masih bisa latihan?",
+    faq4a: "Rehabilitasi dan pencegahan cedera adalah bagian dari coaching Juan. Ceritakan dulu di WhatsApp supaya programmu menyesuaikan.",
+    faq5q: "Di mana sesi live diadakan?",
+    faq5a: "Jakarta, Gading Serpong dan BSD. Slot live terbatas tiap bulan, jadi chat lebih awal. Di luar area ini, pilih online coaching.",
+    sampleCta: "Ambil sample gratis di WhatsApp",
+    barTitle: "Ebook mulai $15",
+    barSub: "Coaching mulai $100",
+    barCta: "Cari programku",
+    heroKicker: "5X JUARA 1 ARMWRESTLING • MEDALI POWERLIFTING • MULAI $15",
     heroB1: "Sistem terbukti dari super kurus menjadi 5x Juara 1 Armwrestling & Medali Powerlifting",
     heroB2: "Fat Loss, Muscle Gain, Rehabilitasi, Pencegahan Cedera & Mobilitas",
     heroB3: "Online Coaching (10 Sesi $100) & Live 1-on-1 ($120) di Jakarta, Gading Serpong & BSD",
-    heroCtaPrimary: "Lihat Program",
-    heroCtaSecondary: "Cocokkan Program (30 Detik)",
-    collectionTitle: "Koleksi Ebook & Coaching",
+    heroCtaPrimary: "Cari programku (30 detik)",
+    heroCtaSecondary: "Lihat harga",
+    collectionTitle: "Semua buku & coaching",
     collectionSub:
       "Ebook split latihan, buku nutrisi The Roman Diet, Online Coaching 10 sesi, hingga Live 1-on-1 di Jakarta, Gading Serpong & BSD.",
     counterNote: "Kuota bulanan Live 1-on-1 Jakarta, Gading Serpong & BSD terbatas.",
-    eliteTitle: "Program elit untuk hasil nyata & bebas cedera.",
+    eliteTitle: "Pilih titik awalmu.",
     eliteSub:
       "Mulai dari ebook fisik $15, kuasai nutrisi lewat The Roman Diet ($25), atau latihan langsung bersama Coach Juan online maupun offline.",
     proofTitle: "Bukti Nyata",
@@ -73,6 +143,21 @@ function buildWhatsAppUrl(message) {
   return `https://wa.me/${SITE_CONFIG.whatsappNumber}?text=${encodeURIComponent(message)}`;
 }
 
+/* Sticky phone buy bar: shows after the hero, hides near the footer */
+function initBuyBar() {
+  const bar = document.getElementById("buyBar");
+  const hero = document.getElementById("top");
+  const footer = document.querySelector(".site-footer");
+  if (!bar || !hero) return;
+  const update = () => {
+    const pastHero = hero.getBoundingClientRect().bottom < 0;
+    const atFooter = footer && footer.getBoundingClientRect().top < window.innerHeight - 40;
+    bar.classList.toggle("show", pastHero && !atFooter);
+  };
+  window.addEventListener("scroll", update, { passive: true });
+  update();
+}
+
 /* Sticky Navbar Scroll Transition */
 const header = document.getElementById("siteHeader");
 window.addEventListener("scroll", () => {
@@ -89,6 +174,7 @@ function startIntakeCountdown() {
   const hrsEl = document.getElementById("cd-hrs");
   const minEl = document.getElementById("cd-min");
   const secEl = document.getElementById("cd-sec");
+  if (!daysEl) return;
 
   const target = Date.now() + (4 * 86400 + 18 * 3600 + 42 * 60) * 1000;
 
@@ -323,7 +409,7 @@ function initDirectActions() {
   });
 
   const newsletterForm = document.getElementById("newsletterForm");
-  newsletterForm.addEventListener("submit", (e) => {
+  if (newsletterForm) newsletterForm.addEventListener("submit", (e) => {
     e.preventDefault();
     const input = document.getElementById("newsletterEmail");
     const feedback = document.getElementById("newsletterFeedback");
@@ -373,4 +459,5 @@ document.addEventListener("DOMContentLoaded", () => {
   initDirectActions();
   initLanguageToggle();
   initMobileDrawer();
+  initBuyBar();
 });
